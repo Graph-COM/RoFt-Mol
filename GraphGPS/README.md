@@ -1,4 +1,4 @@
-# Fine-tuning given Mole-BERT Pre-trained Model 
+# Fine-tuning given GraphGPS Pre-trained Model 
 
 ## Environment
 The required packages are outputted into requirements.txt.
