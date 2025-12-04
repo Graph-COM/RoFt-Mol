@@ -35,12 +35,6 @@ python reg_ft.py  --dataset [dataset] --split [split] --regularization_type [reg
 ```
 where ```reg_type``` can be chosen from ```'l2_sp, feature_map, bss'``` and ```delta``` is the regularization coefficient you can specify.
 
-The ```DWiSE-FT``` can be run using:
-```
-python DWISE.py --dataset [dataset] --split [split] --epochs 200 --lr [lr] --alphas [alphas]
-```
-where ```lr``` is the learning rate we use; ```alphas``` is the initialization of alpha values to perform weight ensemble, where it should be in the form of ```"0.5_0.5_0.5_0.5_0.5_0.5"```, where you can specify different values to start with.
-
 ## Fewshot Fine-tuning (FT)
 Fewshot FT uses the same commands as above, but with additional two arguments ```fewshot``` and ```fewshot_num```. For instance, you can run a full FT under fewshot setting with
 ```
@@ -49,6 +43,6 @@ python finetune_ood.py --dataset [dataset] --split [split] --tune_option all --f
 where ```fewshot_num``` can be chosen from ```50, 100, 500```
 
 ## Note
-Note that before running ```WiSE-FT``` and ```DWiSE-FT```, you should first run the ```full FT``` to get the fully fine-tuned model for later weight interpolation. 
+Note that before running ```WiSE-FT```, you should first run the ```full FT``` to get the fully fine-tuned model for later weight interpolation. 
 
 
