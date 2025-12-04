@@ -3,6 +3,13 @@
 ## Environment
 The required packages are outputted into requirements.txt.
 
+## Pretrained Model
+Please download the pretrained model following the instruction in the original GraphGPS repo
+```
+wget https://www.dropbox.com/s/aomimvak4gb6et3/pcqm4m-GPS%2BRWSE.deep.zip
+unzip pcqm4m-GPS+RWSE.deep.zip -d pretrained/
+```
+
 ## Some general parameters to run the fine-tuning
 Some general arguments are ```dataset``` that can be chosen from the list of 12 datasets \
 ```split``` that can be chosen from ```random, scaffold, size```\
