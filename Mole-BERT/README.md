@@ -1,7 +1,7 @@
 # Fine-tuning given Mole-BERT Pre-trained Model 
 
 ## Non Fewshot Fine-tuning (FT)
-Some general arguments are ```dataset``` that can be chosen from ```esol, bbbp``` \
+Some general arguments are ```dataset``` that can be chosen from the list of 12 datasets in the paper \
 ```split``` that can be chosen from ```random, scaffold, size```\
 The range of model specific hyperparameters are specified in the appendix.
 
