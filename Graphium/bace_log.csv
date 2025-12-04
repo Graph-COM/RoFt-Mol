@@ -1,0 +1,1012 @@
+
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, LP-FT, Best Epoch:23, Best Acc:0.88200
+Dataset:bace, Split:random, Fewshot_True_50, Seed:0, LP-FT, Best Epoch:11, Best Acc:0.73862
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:0, LP-FT, Best Epoch:2, Best Acc:0.76821
+Dataset:bace, Split:size, Fewshot_True_50, Seed:0, LP-FT, Best Epoch:46, Best Acc:0.59294
+Dataset:bace, Split:random, Fewshot_True_50, Seed:1, LP-FT, Best Epoch:11, Best Acc:0.73862
+Dataset:bace, Split:size, Fewshot_True_50, Seed:1, LP-FT, Best Epoch:46, Best Acc:0.59314
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:1, LP-FT, Best Epoch:2, Best Acc:0.76821
+Dataset:bace, Split:random, Fewshot_True_50, Seed:2, LP-FT, Best Epoch:11, Best Acc:0.73862
+Dataset:bace, Split:size, Fewshot_True_50, Seed:2, LP-FT, Best Epoch:46, Best Acc:0.59314
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:2, LP-FT, Best Epoch:2, Best Acc:0.76821
+Dataset:bace, Split:random, Fewshot_True_50, Seed:3, LP-FT, Best Epoch:11, Best Acc:0.73862
+Dataset:bace, Split:size, Fewshot_True_50, Seed:3, LP-FT, Best Epoch:46, Best Acc:0.59304
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:3, LP-FT, Best Epoch:2, Best Acc:0.76821
+Dataset:bace, Split:random, Fewshot_True_50, Seed:4, LP-FT, Best Epoch:11, Best Acc:0.73862
+Dataset:bace, Split:random, Fewshot_True_50, All seed, LP-FT, Best Acc:0.73862, std: 0.00000
+Dataset:bace, Split:size, Fewshot_True_50, Seed:4, LP-FT, Best Epoch:46, Best Acc:0.59294
+Dataset:bace, Split:size, Fewshot_True_50, All seed, LP-FT, Best Acc:0.59304, std: 0.00009
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:4, LP-FT, Best Epoch:2, Best Acc:0.76821
+Dataset:bace, Split:scaffold, Fewshot_True_50, All seed, LP-FT, Best Acc:0.76821, std: 0.00000
+Dataset:bace, Split:random, Fewshot_True_100, Seed:0, LP-FT, Best Epoch:66, Best Acc:0.77801
+Dataset:bace, Split:size, Fewshot_True_100, Seed:0, LP-FT, Best Epoch:37, Best Acc:0.52471
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:0, LP-FT, Best Epoch:37, Best Acc:0.79638
+Dataset:bace, Split:random, Fewshot_True_100, Seed:1, LP-FT, Best Epoch:24, Best Acc:0.80112
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:1, LP-FT, Best Epoch:37, Best Acc:0.79638
+Dataset:bace, Split:size, Fewshot_True_100, Seed:1, LP-FT, Best Epoch:37, Best Acc:0.52451
+Dataset:bace, Split:random, Fewshot_True_100, Seed:2, LP-FT, Best Epoch:24, Best Acc:0.80112
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:2, LP-FT, Best Epoch:37, Best Acc:0.79638
+Dataset:bace, Split:size, Fewshot_True_100, Seed:2, LP-FT, Best Epoch:37, Best Acc:0.52490
+Dataset:bace, Split:random, Fewshot_True_100, Seed:3, LP-FT, Best Epoch:68, Best Acc:0.76488
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:3, LP-FT, Best Epoch:37, Best Acc:0.79638
+Dataset:bace, Split:size, Fewshot_True_100, Seed:3, LP-FT, Best Epoch:37, Best Acc:0.52461
+Dataset:bace, Split:random, Fewshot_True_100, Seed:4, LP-FT, Best Epoch:67, Best Acc:0.74877
+Dataset:bace, Split:random, Fewshot_True_100, All seed, LP-FT, Best Acc:0.77878, std: 0.02046
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:4, LP-FT, Best Epoch:37, Best Acc:0.79638
+Dataset:bace, Split:scaffold, Fewshot_True_100, All seed, LP-FT, Best Acc:0.79638, std: 0.00000
+Dataset:bace, Split:size, Fewshot_True_100, Seed:4, LP-FT, Best Epoch:37, Best Acc:0.52490
+Dataset:bace, Split:size, Fewshot_True_100, All seed, LP-FT, Best Acc:0.52473, std: 0.00016
+Dataset:bace, Split:random, Fewshot_True_500, Seed:0, LP-FT, Best Epoch:98, Best Acc:0.87202
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:0, LP-FT, Best Epoch:12, Best Acc:0.78317
+Dataset:bace, Split:size, Fewshot_True_500, Seed:0, LP-FT, Best Epoch:77, Best Acc:0.59314
+Dataset:bace, Split:random, Fewshot_True_500, Seed:1, LP-FT, Best Epoch:15, Best Acc:0.87290
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:1, LP-FT, Best Epoch:12, Best Acc:0.78317
+Dataset:bace, Split:size, Fewshot_True_500, Seed:1, LP-FT, Best Epoch:87, Best Acc:0.61333
+Dataset:bace, Split:random, Fewshot_True_500, Seed:2, LP-FT, Best Epoch:58, Best Acc:0.87185
+Dataset:bace, Split:size, Fewshot_True_500, Seed:2, LP-FT, Best Epoch:76, Best Acc:0.58314
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:2, LP-FT, Best Epoch:12, Best Acc:0.78317
+Dataset:bace, Split:random, Fewshot_True_500, Seed:3, LP-FT, Best Epoch:89, Best Acc:0.86730
+Dataset:bace, Split:size, Fewshot_True_500, Seed:3, LP-FT, Best Epoch:88, Best Acc:0.57863
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:3, LP-FT, Best Epoch:12, Best Acc:0.78317
+Dataset:bace, Split:random, Fewshot_True_500, Seed:4, LP-FT, Best Epoch:89, Best Acc:0.87430
+Dataset:bace, Split:random, Fewshot_True_500, All seed, LP-FT, Best Acc:0.87167, std: 0.00235
+Dataset:bace, Split:size, Fewshot_True_500, Seed:4, LP-FT, Best Epoch:77, Best Acc:0.63824
+Dataset:bace, Split:size, Fewshot_True_500, All seed, LP-FT, Best Acc:0.60129, std: 0.02200
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:4, LP-FT, Best Epoch:12, Best Acc:0.78317
+Dataset:bace, Split:scaffold, Fewshot_True_500, All seed, LP-FT, Best Acc:0.78317, std: 0.00000
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, LP-FT, Best Epoch:11, Best Acc:0.89426
+Dataset:bace, Split:size, Fewshot_False_50, Seed:0, LP-FT, Best Epoch:20, Best Acc:0.68157
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:0, LP-FT, Best Epoch:4, Best Acc:0.80838
+Dataset:bace, Split:random, Fewshot_False_50, Seed:1, LP-FT, Best Epoch:28, Best Acc:0.90336
+Dataset:bace, Split:size, Fewshot_False_50, Seed:1, LP-FT, Best Epoch:20, Best Acc:0.68284
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:1, LP-FT, Best Epoch:4, Best Acc:0.80838
+Dataset:bace, Split:random, Fewshot_False_50, Seed:2, LP-FT, Best Epoch:31, Best Acc:0.90249
+Dataset:bace, Split:size, Fewshot_False_50, Seed:2, LP-FT, Best Epoch:39, Best Acc:0.66725
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:2, LP-FT, Best Epoch:4, Best Acc:0.80838
+Dataset:bace, Split:random, Fewshot_False_50, Seed:3, LP-FT, Best Epoch:27, Best Acc:0.89041
+Dataset:bace, Split:size, Fewshot_False_50, Seed:3, LP-FT, Best Epoch:20, Best Acc:0.68206
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:3, LP-FT, Best Epoch:4, Best Acc:0.80838
+Dataset:bace, Split:random, Fewshot_False_50, Seed:4, LP-FT, Best Epoch:11, Best Acc:0.89426
+Dataset:bace, Split:random, Fewshot_False_50, All seed, LP-FT, Best Acc:0.89695, std: 0.00508
+Dataset:bace, Split:size, Fewshot_False_50, Seed:4, LP-FT, Best Epoch:20, Best Acc:0.68176
+Dataset:bace, Split:size, Fewshot_False_50, All seed, LP-FT, Best Acc:0.67910, std: 0.00594
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:4, LP-FT, Best Epoch:4, Best Acc:0.80838
+Dataset:bace, Split:scaffold, Fewshot_False_50, All seed, LP-FT, Best Acc:0.80838, std: 0.00000
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:0, Reg_feature_map_m1.0_h1.0, Best Epoch:6, Best Acc:0.48844
+Dataset:bace, Split:size, Fewshot_True_50, Seed:0, Reg_feature_map_m1.0_h1.0, Best Epoch:87, Best Acc:0.57294
+Dataset:bace, Split:random, Fewshot_True_50, Seed:0, Reg_feature_map_m1.0_h1.0, Best Epoch:63, Best Acc:0.77031
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:0, Reg_feature_map_m1.0_h1.0, Best Epoch:6, Best Acc:0.48844
+Dataset:bace, Split:random, Fewshot_True_50, Seed:0, Reg_feature_map_m1.0_h1.0, Best Epoch:60, Best Acc:0.76085
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:1, Reg_feature_map_m1.0_h1.0, Best Epoch:6, Best Acc:0.48844
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:1, Reg_feature_map_m1.0_h1.0, Best Epoch:6, Best Acc:0.48844
+Dataset:bace, Split:size, Fewshot_True_50, Seed:1, Reg_feature_map_m1.0_h1.0, Best Epoch:60, Best Acc:0.57500
+Dataset:bace, Split:random, Fewshot_True_50, Seed:1, Reg_feature_map_m1.0_h1.0, Best Epoch:67, Best Acc:0.76733
+Dataset:bace, Split:random, Fewshot_True_50, Seed:1, Reg_feature_map_m1.0_h1.0, Best Epoch:99, Best Acc:0.77153
+Dataset:bace, Split:size, Fewshot_True_50, Seed:2, Reg_feature_map_m1.0_h1.0, Best Epoch:61, Best Acc:0.58578
+Dataset:bace, Split:size, Fewshot_True_50, All seed, Reg_feature_map_m1.0_h1.0, Best Acc:0.57791, std: 0.00563
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:2, Reg_feature_map_m1.0_h1.0, Best Epoch:6, Best Acc:0.48844
+Dataset:bace, Split:scaffold, Fewshot_True_50, All seed, Reg_feature_map_m1.0_h1.0, Best Acc:0.48844, std: 0.00000
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:2, Reg_feature_map_m1.0_h1.0, Best Epoch:6, Best Acc:0.48844
+Dataset:bace, Split:scaffold, Fewshot_True_50, All seed, Reg_feature_map_m1.0_h1.0, Best Acc:0.48844, std: 0.00000
+Dataset:bace, Split:random, Fewshot_True_50, Seed:2, Reg_feature_map_m1.0_h1.0, Best Epoch:60, Best Acc:0.76978
+Dataset:bace, Split:random, Fewshot_True_50, All seed, Reg_feature_map_m1.0_h1.0, Best Acc:0.76914, std: 0.00130
+Dataset:bace, Split:random, Fewshot_True_50, Seed:2, Reg_feature_map_m1.0_h1.0, Best Epoch:62, Best Acc:0.75490
+Dataset:bace, Split:random, Fewshot_True_50, All seed, Reg_feature_map_m1.0_h1.0, Best Acc:0.76243, std: 0.00688
+Dataset:bace, Split:size, Fewshot_True_100, Seed:0, Reg_feature_map_m1.0_h1.0, Best Epoch:51, Best Acc:0.61098
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:0, Reg_feature_map_m1.0_h1.0, Best Epoch:51, Best Acc:0.69101
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:0, Reg_feature_map_m1.0_h1.0, Best Epoch:51, Best Acc:0.69605
+Dataset:bace, Split:random, Fewshot_True_100, Seed:0, Reg_feature_map_m1.0_h1.0, Best Epoch:37, Best Acc:0.79604
+Dataset:bace, Split:random, Fewshot_True_100, Seed:0, Reg_feature_map_m1.0_h1.0, Best Epoch:66, Best Acc:0.78957
+Dataset:bace, Split:size, Fewshot_True_100, Seed:1, Reg_feature_map_m1.0_h1.0, Best Epoch:51, Best Acc:0.58196
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:1, Reg_feature_map_m1.0_h1.0, Best Epoch:50, Best Acc:0.68249
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:1, Reg_feature_map_m1.0_h1.0, Best Epoch:7, Best Acc:0.59381
+Dataset:bace, Split:random, Fewshot_True_100, Seed:1, Reg_feature_map_m1.0_h1.0, Best Epoch:99, Best Acc:0.78992
+Dataset:bace, Split:random, Fewshot_True_100, Seed:1, Reg_feature_map_m1.0_h1.0, Best Epoch:44, Best Acc:0.79709
+Dataset:bace, Split:size, Fewshot_True_100, Seed:2, Reg_feature_map_m1.0_h1.0, Best Epoch:51, Best Acc:0.59716
+Dataset:bace, Split:size, Fewshot_True_100, All seed, Reg_feature_map_m1.0_h1.0, Best Acc:0.59670, std: 0.01185
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:2, Reg_feature_map_m1.0_h1.0, Best Epoch:7, Best Acc:0.59885
+Dataset:bace, Split:scaffold, Fewshot_True_100, All seed, Reg_feature_map_m1.0_h1.0, Best Acc:0.65745, std: 0.04158
+Dataset:bace, Split:random, Fewshot_True_100, Seed:2, Reg_feature_map_m1.0_h1.0, Best Epoch:99, Best Acc:0.78782
+Dataset:bace, Split:random, Fewshot_True_100, All seed, Reg_feature_map_m1.0_h1.0, Best Acc:0.79126, std: 0.00349
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:2, Reg_feature_map_m1.0_h1.0, Best Epoch:7, Best Acc:0.59381
+Dataset:bace, Split:scaffold, Fewshot_True_100, All seed, Reg_feature_map_m1.0_h1.0, Best Acc:0.62789, std: 0.04820
+Dataset:bace, Split:random, Fewshot_True_100, Seed:2, Reg_feature_map_m1.0_h1.0, Best Epoch:99, Best Acc:0.79097
+Dataset:bace, Split:random, Fewshot_True_100, All seed, Reg_feature_map_m1.0_h1.0, Best Acc:0.79254, std: 0.00327
+Dataset:bace, Split:size, Fewshot_True_500, Seed:0, Reg_feature_map_m1.0_h1.0, Best Epoch:40, Best Acc:0.49186
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:0, Reg_feature_map_m1.0_h1.0, Best Epoch:72, Best Acc:0.73048
+Dataset:bace, Split:random, Fewshot_True_500, Seed:0, Reg_feature_map_m1.0_h1.0, Best Epoch:84, Best Acc:0.80497
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:0, Reg_feature_map_m1.0_h1.0, Best Epoch:91, Best Acc:0.74648
+Dataset:bace, Split:random, Fewshot_True_500, Seed:0, Reg_feature_map_m1.0_h1.0, Best Epoch:62, Best Acc:0.79289
+Dataset:bace, Split:size, Fewshot_True_500, Seed:1, Reg_feature_map_m1.0_h1.0, Best Epoch:83, Best Acc:0.51284
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:1, Reg_feature_map_m1.0_h1.0, Best Epoch:72, Best Acc:0.74126
+Dataset:bace, Split:random, Fewshot_True_500, Seed:1, Reg_feature_map_m1.0_h1.0, Best Epoch:76, Best Acc:0.79517
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:1, Reg_feature_map_m1.0_h1.0, Best Epoch:72, Best Acc:0.73744
+Dataset:bace, Split:random, Fewshot_True_500, Seed:1, Reg_feature_map_m1.0_h1.0, Best Epoch:18, Best Acc:0.79814
+Dataset:bace, Split:size, Fewshot_True_500, Seed:2, Reg_feature_map_m1.0_h1.0, Best Epoch:73, Best Acc:0.50235
+Dataset:bace, Split:size, Fewshot_True_500, All seed, Reg_feature_map_m1.0_h1.0, Best Acc:0.50235, std: 0.00857
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:2, Reg_feature_map_m1.0_h1.0, Best Epoch:83, Best Acc:0.73031
+Dataset:bace, Split:scaffold, Fewshot_True_500, All seed, Reg_feature_map_m1.0_h1.0, Best Acc:0.73402, std: 0.00512
+Dataset:bace, Split:random, Fewshot_True_500, Seed:2, Reg_feature_map_m1.0_h1.0, Best Epoch:62, Best Acc:0.78869
+Dataset:bace, Split:random, Fewshot_True_500, All seed, Reg_feature_map_m1.0_h1.0, Best Acc:0.79628, std: 0.00669
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:2, Reg_feature_map_m1.0_h1.0, Best Epoch:91, Best Acc:0.73013
+Dataset:bace, Split:scaffold, Fewshot_True_500, All seed, Reg_feature_map_m1.0_h1.0, Best Acc:0.73802, std: 0.00669
+Dataset:bace, Split:random, Fewshot_True_500, Seed:2, Reg_feature_map_m1.0_h1.0, Best Epoch:18, Best Acc:0.79744
+Dataset:bace, Split:random, Fewshot_True_500, All seed, Reg_feature_map_m1.0_h1.0, Best Acc:0.79616, std: 0.00233
+Dataset:bace, Split:size, Fewshot_False_50, Seed:0, Reg_feature_map_m1.0_h1.0, Best Epoch:80, Best Acc:0.51078
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:0, Reg_feature_map_m1.0_h1.0, Best Epoch:59, Best Acc:0.69692
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, Reg_feature_map_m1.0_h1.0, Best Epoch:11, Best Acc:0.81268
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:0, Reg_feature_map_m1.0_h1.0, Best Epoch:33, Best Acc:0.69171
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, Reg_feature_map_m1.0_h1.0, Best Epoch:34, Best Acc:0.81232
+Dataset:bace, Split:size, Fewshot_False_50, Seed:1, Reg_feature_map_m1.0_h1.0, Best Epoch:49, Best Acc:0.49000
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:1, Reg_feature_map_m1.0_h1.0, Best Epoch:96, Best Acc:0.71901
+Dataset:bace, Split:random, Fewshot_False_50, Seed:1, Reg_feature_map_m1.0_h1.0, Best Epoch:63, Best Acc:0.82160
+Dataset:bace, Split:random, Fewshot_False_50, Seed:1, Reg_feature_map_m1.0_h1.0, Best Epoch:63, Best Acc:0.81250
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:1, Reg_feature_map_m1.0_h1.0, Best Epoch:96, Best Acc:0.71483
+Dataset:bace, Split:size, Fewshot_False_50, Seed:2, Reg_feature_map_m1.0_h1.0, Best Epoch:34, Best Acc:0.52039
+Dataset:bace, Split:size, Fewshot_False_50, All seed, Reg_feature_map_m1.0_h1.0, Best Acc:0.50706, std: 0.01268
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:2, Reg_feature_map_m1.0_h1.0, Best Epoch:9, Best Acc:0.71466
+Dataset:bace, Split:scaffold, Fewshot_False_50, All seed, Reg_feature_map_m1.0_h1.0, Best Acc:0.71020, std: 0.00955
+Dataset:bace, Split:size, Fewshot_True_50, Seed:0, Reg_feature_map_m0.1_h0.1, Best Epoch:49, Best Acc:0.57382
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:0, Reg_feature_map_m0.1_h0.1, Best Epoch:15, Best Acc:0.66684
+Dataset:bace, Split:random, Fewshot_False_50, Seed:2, Reg_feature_map_m1.0_h1.0, Best Epoch:63, Best Acc:0.81268
+Dataset:bace, Split:random, Fewshot_False_50, All seed, Reg_feature_map_m1.0_h1.0, Best Acc:0.81250, std: 0.00014
+Dataset:bace, Split:random, Fewshot_False_50, Seed:2, Reg_feature_map_m1.0_h1.0, Best Epoch:63, Best Acc:0.82195
+Dataset:bace, Split:random, Fewshot_False_50, All seed, Reg_feature_map_m1.0_h1.0, Best Acc:0.81874, std: 0.00429
+Dataset:bace, Split:size, Fewshot_True_50, Seed:1, Reg_feature_map_m0.1_h0.1, Best Epoch:72, Best Acc:0.58167
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:1, Reg_feature_map_m0.1_h0.1, Best Epoch:15, Best Acc:0.66667
+Dataset:bace, Split:random, Fewshot_True_50, Seed:0, Reg_feature_map_m0.1_h0.1, Best Epoch:78, Best Acc:0.81215
+Dataset:bace, Split:random, Fewshot_True_50, Seed:0, Reg_feature_map_m0.1_h0.1, Best Epoch:78, Best Acc:0.80987
+Dataset:bace, Split:size, Fewshot_True_50, Seed:2, Reg_feature_map_m0.1_h0.1, Best Epoch:72, Best Acc:0.59794
+Dataset:bace, Split:size, Fewshot_True_50, All seed, Reg_feature_map_m0.1_h0.1, Best Acc:0.58448, std: 0.01004
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:2, Reg_feature_map_m1.0_h1.0, Best Epoch:33, Best Acc:0.68858
+Dataset:bace, Split:scaffold, Fewshot_False_50, All seed, Reg_feature_map_m1.0_h1.0, Best Acc:0.69837, std: 0.01171
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:2, Reg_feature_map_m0.1_h0.1, Best Epoch:15, Best Acc:0.66667
+Dataset:bace, Split:scaffold, Fewshot_True_50, All seed, Reg_feature_map_m0.1_h0.1, Best Acc:0.66672, std: 0.00008
+Dataset:bace, Split:random, Fewshot_True_50, Seed:1, Reg_feature_map_m0.1_h0.1, Best Epoch:78, Best Acc:0.81845
+Dataset:bace, Split:random, Fewshot_True_50, Seed:1, Reg_feature_map_m0.1_h0.1, Best Epoch:74, Best Acc:0.81180
+Dataset:bace, Split:size, Fewshot_True_100, Seed:0, Reg_feature_map_m0.1_h0.1, Best Epoch:83, Best Acc:0.57941
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:0, Reg_feature_map_m0.1_h0.1, Best Epoch:15, Best Acc:0.66667
+Dataset:bace, Split:random, Fewshot_True_50, Seed:2, Reg_feature_map_m0.1_h0.1, Best Epoch:78, Best Acc:0.81180
+Dataset:bace, Split:random, Fewshot_True_50, All seed, Reg_feature_map_m0.1_h0.1, Best Acc:0.81413, std: 0.00306
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:0, Reg_feature_map_m0.1_h0.1, Best Epoch:10, Best Acc:0.67067
+Dataset:bace, Split:random, Fewshot_True_50, Seed:2, Reg_feature_map_m0.1_h0.1, Best Epoch:78, Best Acc:0.81670
+Dataset:bace, Split:random, Fewshot_True_50, All seed, Reg_feature_map_m0.1_h0.1, Best Acc:0.81279, std: 0.00287
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:1, Reg_feature_map_m0.1_h0.1, Best Epoch:15, Best Acc:0.66667
+Dataset:bace, Split:size, Fewshot_True_100, Seed:1, Reg_feature_map_m0.1_h0.1, Best Epoch:76, Best Acc:0.57706
+Dataset:bace, Split:random, Fewshot_True_100, Seed:0, Reg_feature_map_m0.1_h0.1, Best Epoch:70, Best Acc:0.80725
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:1, Reg_feature_map_m0.1_h0.1, Best Epoch:10, Best Acc:0.67084
+Dataset:bace, Split:random, Fewshot_True_100, Seed:0, Reg_feature_map_m0.1_h0.1, Best Epoch:66, Best Acc:0.81600
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:2, Reg_feature_map_m0.1_h0.1, Best Epoch:15, Best Acc:0.66684
+Dataset:bace, Split:scaffold, Fewshot_True_50, All seed, Reg_feature_map_m0.1_h0.1, Best Acc:0.66672, std: 0.00008
+Dataset:bace, Split:size, Fewshot_True_100, Seed:2, Reg_feature_map_m0.1_h0.1, Best Epoch:83, Best Acc:0.59314
+Dataset:bace, Split:size, Fewshot_True_100, All seed, Reg_feature_map_m0.1_h0.1, Best Acc:0.58320, std: 0.00709
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:2, Reg_feature_map_m0.1_h0.1, Best Epoch:10, Best Acc:0.67067
+Dataset:bace, Split:scaffold, Fewshot_True_100, All seed, Reg_feature_map_m0.1_h0.1, Best Acc:0.67072, std: 0.00008
+Dataset:bace, Split:random, Fewshot_True_100, Seed:1, Reg_feature_map_m0.1_h0.1, Best Epoch:77, Best Acc:0.80900
+Dataset:bace, Split:random, Fewshot_True_100, Seed:1, Reg_feature_map_m0.1_h0.1, Best Epoch:69, Best Acc:0.80585
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:0, Reg_feature_map_m0.1_h0.1, Best Epoch:10, Best Acc:0.67067
+Dataset:bace, Split:random, Fewshot_True_100, Seed:2, Reg_feature_map_m0.1_h0.1, Best Epoch:65, Best Acc:0.81250
+Dataset:bace, Split:random, Fewshot_True_100, All seed, Reg_feature_map_m0.1_h0.1, Best Acc:0.80958, std: 0.00218
+Dataset:bace, Split:random, Fewshot_True_100, Seed:2, Reg_feature_map_m0.1_h0.1, Best Epoch:58, Best Acc:0.80707
+Dataset:bace, Split:random, Fewshot_True_100, All seed, Reg_feature_map_m0.1_h0.1, Best Acc:0.80964, std: 0.00453
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:1, Reg_feature_map_m0.1_h0.1, Best Epoch:10, Best Acc:0.67084
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:2, Reg_feature_map_m0.1_h0.1, Best Epoch:10, Best Acc:0.67067
+Dataset:bace, Split:scaffold, Fewshot_True_100, All seed, Reg_feature_map_m0.1_h0.1, Best Acc:0.67072, std: 0.00008
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:0, Reg_feature_map_m0.1_h0.1, Best Epoch:1, Best Acc:0.70092
+Dataset:bace, Split:size, Fewshot_True_500, Seed:0, Reg_feature_map_m0.1_h0.1, Best Epoch:99, Best Acc:0.57265
+Dataset:bace, Split:random, Fewshot_True_500, Seed:0, Reg_feature_map_m0.1_h0.1, Best Epoch:56, Best Acc:0.82861
+Dataset:bace, Split:random, Fewshot_True_500, Seed:0, Reg_feature_map_m0.1_h0.1, Best Epoch:91, Best Acc:0.83386
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:1, Reg_feature_map_m0.1_h0.1, Best Epoch:1, Best Acc:0.70092
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:0, Reg_feature_map_m0.1_h0.1, Best Epoch:1, Best Acc:0.70144
+Dataset:bace, Split:size, Fewshot_True_500, Seed:1, Reg_feature_map_m0.1_h0.1, Best Epoch:37, Best Acc:0.49529
+Dataset:bace, Split:random, Fewshot_True_500, Seed:1, Reg_feature_map_m0.1_h0.1, Best Epoch:56, Best Acc:0.83386
+Dataset:bace, Split:random, Fewshot_True_500, Seed:1, Reg_feature_map_m0.1_h0.1, Best Epoch:56, Best Acc:0.83473
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:2, Reg_feature_map_m0.1_h0.1, Best Epoch:1, Best Acc:0.70162
+Dataset:bace, Split:scaffold, Fewshot_True_500, All seed, Reg_feature_map_m0.1_h0.1, Best Acc:0.70115, std: 0.00033
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:1, Reg_feature_map_m0.1_h0.1, Best Epoch:1, Best Acc:0.70162
+Dataset:bace, Split:size, Fewshot_True_500, Seed:2, Reg_feature_map_m0.1_h0.1, Best Epoch:51, Best Acc:0.53824
+Dataset:bace, Split:size, Fewshot_True_500, All seed, Reg_feature_map_m0.1_h0.1, Best Acc:0.53539, std: 0.03164
+Dataset:bace, Split:random, Fewshot_True_500, Seed:2, Reg_feature_map_m0.1_h0.1, Best Epoch:56, Best Acc:0.83316
+Dataset:bace, Split:random, Fewshot_True_500, All seed, Reg_feature_map_m0.1_h0.1, Best Acc:0.83187, std: 0.00233
+Dataset:bace, Split:random, Fewshot_True_500, Seed:2, Reg_feature_map_m0.1_h0.1, Best Epoch:77, Best Acc:0.83491
+Dataset:bace, Split:random, Fewshot_True_500, All seed, Reg_feature_map_m0.1_h0.1, Best Acc:0.83450, std: 0.00046
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:2, Reg_feature_map_m0.1_h0.1, Best Epoch:1, Best Acc:0.70092
+Dataset:bace, Split:scaffold, Fewshot_True_500, All seed, Reg_feature_map_m0.1_h0.1, Best Acc:0.70133, std: 0.00030
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:0, Reg_feature_map_m0.1_h0.1, Best Epoch:0, Best Acc:0.68945
+Dataset:bace, Split:size, Fewshot_False_50, Seed:0, Reg_feature_map_m0.1_h0.1, Best Epoch:68, Best Acc:0.59765
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, Reg_feature_map_m0.1_h0.1, Best Epoch:89, Best Acc:0.83999
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, Reg_feature_map_m0.1_h0.1, Best Epoch:63, Best Acc:0.83824
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:0, Reg_feature_map_m0.1_h0.1, Best Epoch:0, Best Acc:0.68301
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:1, Reg_feature_map_m0.1_h0.1, Best Epoch:0, Best Acc:0.68353
+Dataset:bace, Split:size, Fewshot_False_50, Seed:1, Reg_feature_map_m0.1_h0.1, Best Epoch:61, Best Acc:0.55520
+Dataset:bace, Split:random, Fewshot_False_50, Seed:1, Reg_feature_map_m0.1_h0.1, Best Epoch:23, Best Acc:0.84104
+Dataset:bace, Split:random, Fewshot_False_50, Seed:1, Reg_feature_map_m0.1_h0.1, Best Epoch:37, Best Acc:0.84139
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:1, Reg_feature_map_m0.1_h0.1, Best Epoch:0, Best Acc:0.68319
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:2, Reg_feature_map_m0.1_h0.1, Best Epoch:0, Best Acc:0.68405
+Dataset:bace, Split:scaffold, Fewshot_False_50, All seed, Reg_feature_map_m0.1_h0.1, Best Acc:0.68568, std: 0.00267
+Dataset:bace, Split:size, Fewshot_False_50, Seed:2, Reg_feature_map_m0.1_h0.1, Best Epoch:52, Best Acc:0.55941
+Dataset:bace, Split:size, Fewshot_False_50, All seed, Reg_feature_map_m0.1_h0.1, Best Acc:0.57075, std: 0.01910
+Dataset:bace, Split:random, Fewshot_False_50, Seed:2, Reg_feature_map_m0.1_h0.1, Best Epoch:40, Best Acc:0.83771
+Dataset:bace, Split:random, Fewshot_False_50, All seed, Reg_feature_map_m0.1_h0.1, Best Acc:0.83958, std: 0.00139
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:0, Reg_feature_map_m0.01_h0.01, Best Epoch:19, Best Acc:0.70318
+Dataset:bace, Split:size, Fewshot_True_50, Seed:0, Reg_feature_map_m0.01_h0.01, Best Epoch:49, Best Acc:0.54294
+Dataset:bace, Split:random, Fewshot_True_50, Seed:0, Reg_feature_map_m0.01_h0.01, Best Epoch:74, Best Acc:0.81197
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:1, Reg_feature_map_m0.01_h0.01, Best Epoch:19, Best Acc:0.70336
+Dataset:bace, Split:size, Fewshot_True_50, Seed:1, Reg_feature_map_m0.01_h0.01, Best Epoch:49, Best Acc:0.54431
+Dataset:bace, Split:random, Fewshot_False_50, Seed:2, Reg_feature_map_m0.1_h0.1, Best Epoch:91, Best Acc:0.84314
+Dataset:bace, Split:random, Fewshot_False_50, All seed, Reg_feature_map_m0.1_h0.1, Best Acc:0.84092, std: 0.00203
+Dataset:bace, Split:random, Fewshot_True_50, Seed:1, Reg_feature_map_m0.01_h0.01, Best Epoch:74, Best Acc:0.81092
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:2, Reg_feature_map_m0.01_h0.01, Best Epoch:19, Best Acc:0.70318
+Dataset:bace, Split:scaffold, Fewshot_True_50, All seed, Reg_feature_map_m0.01_h0.01, Best Acc:0.70324, std: 0.00008
+Dataset:bace, Split:size, Fewshot_True_50, Seed:2, Reg_feature_map_m0.01_h0.01, Best Epoch:50, Best Acc:0.55137
+Dataset:bace, Split:size, Fewshot_True_50, All seed, Reg_feature_map_m0.01_h0.01, Best Acc:0.54621, std: 0.00369
+Dataset:bace, Split:random, Fewshot_True_50, Seed:0, Reg_feature_map_m0.01_h0.01, Best Epoch:97, Best Acc:0.81740
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:2, Reg_feature_map_m0.1_h0.1, Best Epoch:0, Best Acc:0.68301
+Dataset:bace, Split:scaffold, Fewshot_False_50, All seed, Reg_feature_map_m0.1_h0.1, Best Acc:0.68307, std: 0.00008
+Dataset:bace, Split:random, Fewshot_True_50, Seed:2, Reg_feature_map_m0.01_h0.01, Best Epoch:97, Best Acc:0.81723
+Dataset:bace, Split:random, Fewshot_True_50, All seed, Reg_feature_map_m0.01_h0.01, Best Acc:0.81338, std: 0.00276
+Dataset:bace, Split:size, Fewshot_True_100, Seed:0, Reg_feature_map_m0.01_h0.01, Best Epoch:79, Best Acc:0.57676
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:0, Reg_feature_map_m0.01_h0.01, Best Epoch:10, Best Acc:0.68475
+Dataset:bace, Split:random, Fewshot_True_50, Seed:1, Reg_feature_map_m0.01_h0.01, Best Epoch:97, Best Acc:0.81723
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:0, Reg_feature_map_m0.01_h0.01, Best Epoch:19, Best Acc:0.70318
+Dataset:bace, Split:random, Fewshot_True_100, Seed:0, Reg_feature_map_m0.01_h0.01, Best Epoch:82, Best Acc:0.80812
+Dataset:bace, Split:random, Fewshot_True_50, Seed:2, Reg_feature_map_m0.01_h0.01, Best Epoch:97, Best Acc:0.81600
+Dataset:bace, Split:random, Fewshot_True_50, All seed, Reg_feature_map_m0.01_h0.01, Best Acc:0.81688, std: 0.00062
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:1, Reg_feature_map_m0.01_h0.01, Best Epoch:10, Best Acc:0.68475
+Dataset:bace, Split:size, Fewshot_True_100, Seed:1, Reg_feature_map_m0.01_h0.01, Best Epoch:51, Best Acc:0.56902
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:1, Reg_feature_map_m0.01_h0.01, Best Epoch:19, Best Acc:0.70318
+Dataset:bace, Split:random, Fewshot_True_100, Seed:1, Reg_feature_map_m0.01_h0.01, Best Epoch:80, Best Acc:0.81950
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:2, Reg_feature_map_m0.01_h0.01, Best Epoch:19, Best Acc:0.70318
+Dataset:bace, Split:scaffold, Fewshot_True_50, All seed, Reg_feature_map_m0.01_h0.01, Best Acc:0.70318, std: 0.00000
+Dataset:bace, Split:random, Fewshot_True_100, Seed:0, Reg_feature_map_m0.01_h0.01, Best Epoch:83, Best Acc:0.81145
+Dataset:bace, Split:size, Fewshot_True_100, Seed:2, Reg_feature_map_m0.01_h0.01, Best Epoch:51, Best Acc:0.56235
+Dataset:bace, Split:size, Fewshot_True_100, All seed, Reg_feature_map_m0.01_h0.01, Best Acc:0.56938, std: 0.00589
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:2, Reg_feature_map_m0.01_h0.01, Best Epoch:10, Best Acc:0.68475
+Dataset:bace, Split:scaffold, Fewshot_True_100, All seed, Reg_feature_map_m0.01_h0.01, Best Acc:0.68475, std: 0.00000
+Dataset:bace, Split:random, Fewshot_True_100, Seed:2, Reg_feature_map_m0.01_h0.01, Best Epoch:80, Best Acc:0.81618
+Dataset:bace, Split:random, Fewshot_True_100, All seed, Reg_feature_map_m0.01_h0.01, Best Acc:0.81460, std: 0.00478
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:0, Reg_feature_map_m0.01_h0.01, Best Epoch:10, Best Acc:0.68475
+Dataset:bace, Split:random, Fewshot_True_100, Seed:1, Reg_feature_map_m0.01_h0.01, Best Epoch:82, Best Acc:0.82020
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:1, Reg_feature_map_m0.01_h0.01, Best Epoch:10, Best Acc:0.68475
+Dataset:bace, Split:random, Fewshot_True_100, Seed:2, Reg_feature_map_m0.01_h0.01, Best Epoch:79, Best Acc:0.80462
+Dataset:bace, Split:random, Fewshot_True_100, All seed, Reg_feature_map_m0.01_h0.01, Best Acc:0.81209, std: 0.00638
+Dataset:bace, Split:size, Fewshot_True_500, Seed:0, Reg_feature_map_m0.01_h0.01, Best Epoch:51, Best Acc:0.55598
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:0, Reg_feature_map_m0.01_h0.01, Best Epoch:81, Best Acc:0.76282
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:2, Reg_feature_map_m0.01_h0.01, Best Epoch:10, Best Acc:0.68579
+Dataset:bace, Split:scaffold, Fewshot_True_100, All seed, Reg_feature_map_m0.01_h0.01, Best Acc:0.68510, std: 0.00049
+Dataset:bace, Split:random, Fewshot_True_500, Seed:0, Reg_feature_map_m0.01_h0.01, Best Epoch:94, Best Acc:0.84471
+Dataset:bace, Split:random, Fewshot_True_500, Seed:0, Reg_feature_map_m0.01_h0.01, Best Epoch:94, Best Acc:0.83736
+Dataset:bace, Split:size, Fewshot_True_500, Seed:1, Reg_feature_map_m0.01_h0.01, Best Epoch:81, Best Acc:0.56804
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:1, Reg_feature_map_m0.01_h0.01, Best Epoch:78, Best Acc:0.76056
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:0, Reg_feature_map_m0.01_h0.01, Best Epoch:90, Best Acc:0.75135
+Dataset:bace, Split:random, Fewshot_True_500, Seed:1, Reg_feature_map_m0.01_h0.01, Best Epoch:94, Best Acc:0.84086
+Dataset:bace, Split:random, Fewshot_True_500, Seed:1, Reg_feature_map_m0.01_h0.01, Best Epoch:77, Best Acc:0.84454
+Dataset:bace, Split:size, Fewshot_True_500, Seed:2, Reg_feature_map_m0.01_h0.01, Best Epoch:84, Best Acc:0.59304
+Dataset:bace, Split:size, Fewshot_True_500, All seed, Reg_feature_map_m0.01_h0.01, Best Acc:0.57235, std: 0.01543
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:2, Reg_feature_map_m0.01_h0.01, Best Epoch:96, Best Acc:0.76978
+Dataset:bace, Split:scaffold, Fewshot_True_500, All seed, Reg_feature_map_m0.01_h0.01, Best Acc:0.76439, std: 0.00392
+Dataset:bace, Split:random, Fewshot_True_500, Seed:2, Reg_feature_map_m0.01_h0.01, Best Epoch:77, Best Acc:0.84506
+Dataset:bace, Split:random, Fewshot_True_500, All seed, Reg_feature_map_m0.01_h0.01, Best Acc:0.84355, std: 0.00190
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:1, Reg_feature_map_m0.01_h0.01, Best Epoch:95, Best Acc:0.76178
+Dataset:bace, Split:random, Fewshot_True_500, Seed:2, Reg_feature_map_m0.01_h0.01, Best Epoch:94, Best Acc:0.84244
+Dataset:bace, Split:random, Fewshot_True_500, All seed, Reg_feature_map_m0.01_h0.01, Best Acc:0.84144, std: 0.00301
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:2, Reg_feature_map_m0.01_h0.01, Best Epoch:81, Best Acc:0.75987
+Dataset:bace, Split:scaffold, Fewshot_True_500, All seed, Reg_feature_map_m0.01_h0.01, Best Acc:0.75767, std: 0.00454
+Dataset:bace, Split:size, Fewshot_False_50, Seed:0, Reg_feature_map_m0.01_h0.01, Best Epoch:61, Best Acc:0.63235
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:0, Reg_feature_map_m0.01_h0.01, Best Epoch:0, Best Acc:0.69049
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, Reg_feature_map_m0.01_h0.01, Best Epoch:92, Best Acc:0.89198
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, Reg_feature_map_m0.01_h0.01, Best Epoch:92, Best Acc:0.89181
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:0, Reg_feature_map_m0.01_h0.01, Best Epoch:0, Best Acc:0.69066
+Dataset:bace, Split:size, Fewshot_False_50, Seed:1, Reg_feature_map_m0.01_h0.01, Best Epoch:84, Best Acc:0.65078
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:1, Reg_feature_map_m0.01_h0.01, Best Epoch:0, Best Acc:0.69049
+Dataset:bace, Split:random, Fewshot_False_50, Seed:1, Reg_feature_map_m0.01_h0.01, Best Epoch:92, Best Acc:0.89373
+Dataset:bace, Split:random, Fewshot_False_50, Seed:1, Reg_feature_map_m0.01_h0.01, Best Epoch:79, Best Acc:0.87903
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:1, Reg_feature_map_m0.01_h0.01, Best Epoch:0, Best Acc:0.69084
+Dataset:bace, Split:size, Fewshot_False_50, Seed:2, Reg_feature_map_m0.01_h0.01, Best Epoch:84, Best Acc:0.64931
+Dataset:bace, Split:size, Fewshot_False_50, All seed, Reg_feature_map_m0.01_h0.01, Best Acc:0.64415, std: 0.00836
+Dataset:bace, Split:size, Fewshot_True_50, Seed:0, Reg_feature_map_m0.001_h0.001, Best Epoch:59, Best Acc:0.58500
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:2, Reg_feature_map_m0.01_h0.01, Best Epoch:0, Best Acc:0.69066
+Dataset:bace, Split:scaffold, Fewshot_False_50, All seed, Reg_feature_map_m0.01_h0.01, Best Acc:0.69055, std: 0.00008
+Dataset:bace, Split:random, Fewshot_False_50, Seed:2, Reg_feature_map_m0.01_h0.01, Best Epoch:79, Best Acc:0.88148
+Dataset:bace, Split:random, Fewshot_False_50, All seed, Reg_feature_map_m0.01_h0.01, Best Acc:0.88906, std: 0.00541
+Dataset:bace, Split:size, Fewshot_True_50, Seed:1, Reg_feature_map_m0.001_h0.001, Best Epoch:49, Best Acc:0.57039
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:0, Reg_feature_map_m0.001_h0.001, Best Epoch:11, Best Acc:0.66615
+Dataset:bace, Split:random, Fewshot_True_50, Seed:0, Reg_feature_map_m0.001_h0.001, Best Epoch:70, Best Acc:0.81793
+Dataset:bace, Split:size, Fewshot_True_50, Seed:2, Reg_feature_map_m0.001_h0.001, Best Epoch:49, Best Acc:0.56990
+Dataset:bace, Split:size, Fewshot_True_50, All seed, Reg_feature_map_m0.001_h0.001, Best Acc:0.57510, std: 0.00700
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:1, Reg_feature_map_m0.001_h0.001, Best Epoch:11, Best Acc:0.66615
+Dataset:bace, Split:random, Fewshot_True_50, Seed:1, Reg_feature_map_m0.001_h0.001, Best Epoch:70, Best Acc:0.81775
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:2, Reg_feature_map_m0.001_h0.001, Best Epoch:11, Best Acc:0.66580
+Dataset:bace, Split:scaffold, Fewshot_True_50, All seed, Reg_feature_map_m0.001_h0.001, Best Acc:0.66603, std: 0.00016
+Dataset:bace, Split:size, Fewshot_True_100, Seed:0, Reg_feature_map_m0.001_h0.001, Best Epoch:59, Best Acc:0.58686
+Dataset:bace, Split:random, Fewshot_False_50, Seed:2, Reg_feature_map_m0.01_h0.01, Best Epoch:92, Best Acc:0.89111
+Dataset:bace, Split:random, Fewshot_False_50, All seed, Reg_feature_map_m0.01_h0.01, Best Acc:0.88731, std: 0.00587
+Dataset:bace, Split:random, Fewshot_True_50, Seed:2, Reg_feature_map_m0.001_h0.001, Best Epoch:70, Best Acc:0.81723
+Dataset:bace, Split:random, Fewshot_True_50, All seed, Reg_feature_map_m0.001_h0.001, Best Acc:0.81764, std: 0.00030
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:2, Reg_feature_map_m0.01_h0.01, Best Epoch:96, Best Acc:0.77778
+Dataset:bace, Split:scaffold, Fewshot_False_50, All seed, Reg_feature_map_m0.01_h0.01, Best Acc:0.71976, std: 0.04103
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:0, Reg_feature_map_m0.001_h0.001, Best Epoch:7, Best Acc:0.70110
+Dataset:bace, Split:random, Fewshot_True_50, Seed:0, Reg_feature_map_m0.001_h0.001, Best Epoch:70, Best Acc:0.81723
+Dataset:bace, Split:size, Fewshot_True_100, Seed:1, Reg_feature_map_m0.001_h0.001, Best Epoch:94, Best Acc:0.59392
+Dataset:bace, Split:random, Fewshot_True_100, Seed:0, Reg_feature_map_m0.001_h0.001, Best Epoch:83, Best Acc:0.81793
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:0, Reg_feature_map_m0.001_h0.001, Best Epoch:11, Best Acc:0.66615
+Dataset:bace, Split:random, Fewshot_True_50, Seed:1, Reg_feature_map_m0.001_h0.001, Best Epoch:70, Best Acc:0.81723
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:1, Reg_feature_map_m0.001_h0.001, Best Epoch:7, Best Acc:0.70110
+Dataset:bace, Split:size, Fewshot_True_100, Seed:2, Reg_feature_map_m0.001_h0.001, Best Epoch:58, Best Acc:0.60294
+Dataset:bace, Split:size, Fewshot_True_100, All seed, Reg_feature_map_m0.001_h0.001, Best Acc:0.59458, std: 0.00658
+Dataset:bace, Split:random, Fewshot_True_100, Seed:1, Reg_feature_map_m0.001_h0.001, Best Epoch:57, Best Acc:0.82686
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:1, Reg_feature_map_m0.001_h0.001, Best Epoch:11, Best Acc:0.66615
+Dataset:bace, Split:random, Fewshot_True_50, Seed:2, Reg_feature_map_m0.001_h0.001, Best Epoch:70, Best Acc:0.81723
+Dataset:bace, Split:random, Fewshot_True_50, All seed, Reg_feature_map_m0.001_h0.001, Best Acc:0.81723, std: 0.00000
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:2, Reg_feature_map_m0.001_h0.001, Best Epoch:7, Best Acc:0.70110
+Dataset:bace, Split:scaffold, Fewshot_True_100, All seed, Reg_feature_map_m0.001_h0.001, Best Acc:0.70110, std: 0.00000
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:2, Reg_feature_map_m0.001_h0.001, Best Epoch:11, Best Acc:0.66615
+Dataset:bace, Split:scaffold, Fewshot_True_50, All seed, Reg_feature_map_m0.001_h0.001, Best Acc:0.66615, std: 0.00000
+Dataset:bace, Split:random, Fewshot_True_100, Seed:2, Reg_feature_map_m0.001_h0.001, Best Epoch:82, Best Acc:0.82283
+Dataset:bace, Split:random, Fewshot_True_100, All seed, Reg_feature_map_m0.001_h0.001, Best Acc:0.82254, std: 0.00365
+Dataset:bace, Split:random, Fewshot_True_100, Seed:0, Reg_feature_map_m0.001_h0.001, Best Epoch:81, Best Acc:0.82108
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:0, Reg_feature_map_m0.001_h0.001, Best Epoch:7, Best Acc:0.70110
+Dataset:bace, Split:random, Fewshot_True_100, Seed:1, Reg_feature_map_m0.001_h0.001, Best Epoch:74, Best Acc:0.82791
+Dataset:bace, Split:size, Fewshot_True_500, Seed:0, Reg_feature_map_m0.001_h0.001, Best Epoch:84, Best Acc:0.61147
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:1, Reg_feature_map_m0.001_h0.001, Best Epoch:7, Best Acc:0.70110
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:0, Reg_feature_map_m0.001_h0.001, Best Epoch:89, Best Acc:0.78421
+Dataset:bace, Split:random, Fewshot_True_100, Seed:2, Reg_feature_map_m0.001_h0.001, Best Epoch:82, Best Acc:0.82195
+Dataset:bace, Split:random, Fewshot_True_100, All seed, Reg_feature_map_m0.001_h0.001, Best Acc:0.82365, std: 0.00303
+Dataset:bace, Split:random, Fewshot_True_500, Seed:0, Reg_feature_map_m0.001_h0.001, Best Epoch:90, Best Acc:0.85662
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:2, Reg_feature_map_m0.001_h0.001, Best Epoch:7, Best Acc:0.70110
+Dataset:bace, Split:scaffold, Fewshot_True_100, All seed, Reg_feature_map_m0.001_h0.001, Best Acc:0.70110, std: 0.00000
+Dataset:bace, Split:size, Fewshot_True_500, Seed:1, Reg_feature_map_m0.001_h0.001, Best Epoch:84, Best Acc:0.61725
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:1, Reg_feature_map_m0.001_h0.001, Best Epoch:89, Best Acc:0.78039
+Dataset:bace, Split:random, Fewshot_True_500, Seed:0, Reg_feature_map_m0.001_h0.001, Best Epoch:90, Best Acc:0.85452
+Dataset:bace, Split:random, Fewshot_True_500, Seed:1, Reg_feature_map_m0.001_h0.001, Best Epoch:90, Best Acc:0.85662
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:0, Reg_feature_map_m0.001_h0.001, Best Epoch:89, Best Acc:0.78091
+Dataset:bace, Split:size, Fewshot_True_500, Seed:2, Reg_feature_map_m0.001_h0.001, Best Epoch:84, Best Acc:0.61608
+Dataset:bace, Split:size, Fewshot_True_500, All seed, Reg_feature_map_m0.001_h0.001, Best Acc:0.61493, std: 0.00250
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:2, Reg_feature_map_m0.001_h0.001, Best Epoch:89, Best Acc:0.78647
+Dataset:bace, Split:scaffold, Fewshot_True_500, All seed, Reg_feature_map_m0.001_h0.001, Best Acc:0.78369, std: 0.00251
+Dataset:bace, Split:random, Fewshot_True_500, Seed:1, Reg_feature_map_m0.001_h0.001, Best Epoch:90, Best Acc:0.85382
+Dataset:bace, Split:random, Fewshot_True_500, Seed:2, Reg_feature_map_m0.001_h0.001, Best Epoch:90, Best Acc:0.85802
+Dataset:bace, Split:random, Fewshot_True_500, All seed, Reg_feature_map_m0.001_h0.001, Best Acc:0.85708, std: 0.00066
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:1, Reg_feature_map_m0.001_h0.001, Best Epoch:89, Best Acc:0.78647
+Dataset:bace, Split:random, Fewshot_True_500, Seed:2, Reg_feature_map_m0.001_h0.001, Best Epoch:90, Best Acc:0.86082
+Dataset:bace, Split:random, Fewshot_True_500, All seed, Reg_feature_map_m0.001_h0.001, Best Acc:0.85638, std: 0.00315
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:2, Reg_feature_map_m0.001_h0.001, Best Epoch:89, Best Acc:0.77830
+Dataset:bace, Split:scaffold, Fewshot_True_500, All seed, Reg_feature_map_m0.001_h0.001, Best Acc:0.78189, std: 0.00341
+Dataset:bace, Split:size, Fewshot_False_50, Seed:0, Reg_feature_map_m0.001_h0.001, Best Epoch:38, Best Acc:0.66569
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:0, Reg_feature_map_m0.001_h0.001, Best Epoch:31, Best Acc:0.79238
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, Reg_feature_map_m0.001_h0.001, Best Epoch:63, Best Acc:0.91439
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, Reg_feature_map_m0.001_h0.001, Best Epoch:85, Best Acc:0.90266
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:0, Reg_feature_map_m0.001_h0.001, Best Epoch:65, Best Acc:0.80629
+Dataset:bace, Split:size, Fewshot_False_50, Seed:1, Reg_feature_map_m0.001_h0.001, Best Epoch:52, Best Acc:0.67922
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:1, Reg_feature_map_m0.001_h0.001, Best Epoch:31, Best Acc:0.78439
+Dataset:bace, Split:random, Fewshot_False_50, Seed:1, Reg_feature_map_m0.001_h0.001, Best Epoch:51, Best Acc:0.90669
+Dataset:bace, Split:random, Fewshot_False_50, Seed:1, Reg_feature_map_m0.001_h0.001, Best Epoch:63, Best Acc:0.91404
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:1, Reg_feature_map_m0.001_h0.001, Best Epoch:31, Best Acc:0.77813
+Dataset:bace, Split:size, Fewshot_False_50, Seed:2, Reg_feature_map_m0.001_h0.001, Best Epoch:38, Best Acc:0.67216
+Dataset:bace, Split:size, Fewshot_False_50, All seed, Reg_feature_map_m0.001_h0.001, Best Acc:0.67235, std: 0.00553
+Dataset:bace, Split:size, Fewshot_True_50, Seed:0, Reg_feature_map_m0.0001_h0.0001, Best Epoch:46, Best Acc:0.62451
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:2, Reg_feature_map_m0.001_h0.001, Best Epoch:65, Best Acc:0.80629
+Dataset:bace, Split:scaffold, Fewshot_False_50, All seed, Reg_feature_map_m0.001_h0.001, Best Acc:0.79435, std: 0.00905
+Dataset:bace, Split:size, Fewshot_True_50, Seed:1, Reg_feature_map_m0.0001_h0.0001, Best Epoch:49, Best Acc:0.61127
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:0, Reg_feature_map_m0.0001_h0.0001, Best Epoch:0, Best Acc:0.63502
+Dataset:bace, Split:size, Fewshot_True_50, Seed:2, Reg_feature_map_m0.0001_h0.0001, Best Epoch:46, Best Acc:0.62284
+Dataset:bace, Split:size, Fewshot_True_50, All seed, Reg_feature_map_m0.0001_h0.0001, Best Acc:0.61954, std: 0.00589
+Dataset:bace, Split:random, Fewshot_False_50, Seed:2, Reg_feature_map_m0.001_h0.001, Best Epoch:63, Best Acc:0.91317
+Dataset:bace, Split:random, Fewshot_False_50, All seed, Reg_feature_map_m0.001_h0.001, Best Acc:0.91141, std: 0.00338
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:1, Reg_feature_map_m0.0001_h0.0001, Best Epoch:0, Best Acc:0.63502
+Dataset:bace, Split:random, Fewshot_True_50, Seed:0, Reg_feature_map_m0.0001_h0.0001, Best Epoch:5, Best Acc:0.80182
+Dataset:bace, Split:size, Fewshot_True_100, Seed:0, Reg_feature_map_m0.0001_h0.0001, Best Epoch:29, Best Acc:0.66471
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:2, Reg_feature_map_m0.0001_h0.0001, Best Epoch:0, Best Acc:0.63502
+Dataset:bace, Split:scaffold, Fewshot_True_50, All seed, Reg_feature_map_m0.0001_h0.0001, Best Acc:0.63502, std: 0.00000
+Dataset:bace, Split:random, Fewshot_True_50, Seed:1, Reg_feature_map_m0.0001_h0.0001, Best Epoch:5, Best Acc:0.80182
+Dataset:bace, Split:size, Fewshot_True_100, Seed:1, Reg_feature_map_m0.0001_h0.0001, Best Epoch:82, Best Acc:0.61196
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:0, Reg_feature_map_m0.0001_h0.0001, Best Epoch:64, Best Acc:0.76022
+Dataset:bace, Split:random, Fewshot_True_50, Seed:2, Reg_feature_map_m0.0001_h0.0001, Best Epoch:5, Best Acc:0.80182
+Dataset:bace, Split:random, Fewshot_True_50, All seed, Reg_feature_map_m0.0001_h0.0001, Best Acc:0.80182, std: 0.00000
+Dataset:bace, Split:random, Fewshot_False_50, Seed:2, Reg_feature_map_m0.001_h0.001, Best Epoch:78, Best Acc:0.91264
+Dataset:bace, Split:random, Fewshot_False_50, All seed, Reg_feature_map_m0.001_h0.001, Best Acc:0.90978, std: 0.00507
+Dataset:bace, Split:size, Fewshot_True_100, Seed:2, Reg_feature_map_m0.0001_h0.0001, Best Epoch:29, Best Acc:0.66745
+Dataset:bace, Split:size, Fewshot_True_100, All seed, Reg_feature_map_m0.0001_h0.0001, Best Acc:0.64804, std: 0.02554
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:1, Reg_feature_map_m0.0001_h0.0001, Best Epoch:50, Best Acc:0.76874
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:2, Reg_feature_map_m0.001_h0.001, Best Epoch:65, Best Acc:0.80873
+Dataset:bace, Split:scaffold, Fewshot_False_50, All seed, Reg_feature_map_m0.001_h0.001, Best Acc:0.79772, std: 0.01389
+Dataset:bace, Split:random, Fewshot_True_100, Seed:0, Reg_feature_map_m0.0001_h0.0001, Best Epoch:14, Best Acc:0.85802
+Dataset:bace, Split:random, Fewshot_True_50, Seed:0, Reg_feature_map_m0.0001_h0.0001, Best Epoch:5, Best Acc:0.80182
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:2, Reg_feature_map_m0.0001_h0.0001, Best Epoch:7, Best Acc:0.77847
+Dataset:bace, Split:scaffold, Fewshot_True_100, All seed, Reg_feature_map_m0.0001_h0.0001, Best Acc:0.76914, std: 0.00746
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:0, Reg_feature_map_m0.0001_h0.0001, Best Epoch:0, Best Acc:0.63502
+Dataset:bace, Split:random, Fewshot_True_50, Seed:1, Reg_feature_map_m0.0001_h0.0001, Best Epoch:5, Best Acc:0.80182
+Dataset:bace, Split:random, Fewshot_True_100, Seed:1, Reg_feature_map_m0.0001_h0.0001, Best Epoch:14, Best Acc:0.85802
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:1, Reg_feature_map_m0.0001_h0.0001, Best Epoch:0, Best Acc:0.63502
+Dataset:bace, Split:random, Fewshot_True_50, Seed:2, Reg_feature_map_m0.0001_h0.0001, Best Epoch:5, Best Acc:0.80182
+Dataset:bace, Split:random, Fewshot_True_50, All seed, Reg_feature_map_m0.0001_h0.0001, Best Acc:0.80182, std: 0.00000
+Dataset:bace, Split:random, Fewshot_True_100, Seed:2, Reg_feature_map_m0.0001_h0.0001, Best Epoch:14, Best Acc:0.85784
+Dataset:bace, Split:random, Fewshot_True_100, All seed, Reg_feature_map_m0.0001_h0.0001, Best Acc:0.85796, std: 0.00008
+Dataset:bace, Split:size, Fewshot_True_500, Seed:0, Reg_feature_map_m0.0001_h0.0001, Best Epoch:23, Best Acc:0.61157
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:2, Reg_feature_map_m0.0001_h0.0001, Best Epoch:0, Best Acc:0.63502
+Dataset:bace, Split:scaffold, Fewshot_True_50, All seed, Reg_feature_map_m0.0001_h0.0001, Best Acc:0.63502, std: 0.00000
+Dataset:bace, Split:random, Fewshot_True_100, Seed:0, Reg_feature_map_m0.0001_h0.0001, Best Epoch:14, Best Acc:0.85784
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:0, Reg_feature_map_m0.0001_h0.0001, Best Epoch:50, Best Acc:0.77204
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:0, Reg_feature_map_m0.0001_h0.0001, Best Epoch:12, Best Acc:0.79012
+Dataset:bace, Split:random, Fewshot_True_100, Seed:1, Reg_feature_map_m0.0001_h0.0001, Best Epoch:14, Best Acc:0.85802
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:1, Reg_feature_map_m0.0001_h0.0001, Best Epoch:64, Best Acc:0.76300
+Dataset:bace, Split:random, Fewshot_True_100, Seed:2, Reg_feature_map_m0.0001_h0.0001, Best Epoch:14, Best Acc:0.85784
+Dataset:bace, Split:random, Fewshot_True_100, All seed, Reg_feature_map_m0.0001_h0.0001, Best Acc:0.85790, std: 0.00008
+Dataset:bace, Split:random, Fewshot_True_500, Seed:0, Reg_feature_map_m0.0001_h0.0001, Best Epoch:66, Best Acc:0.87132
+Dataset:bace, Split:size, Fewshot_True_500, Seed:1, Reg_feature_map_m0.0001_h0.0001, Best Epoch:23, Best Acc:0.62225
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:2, Reg_feature_map_m0.0001_h0.0001, Best Epoch:64, Best Acc:0.76456
+Dataset:bace, Split:scaffold, Fewshot_True_100, All seed, Reg_feature_map_m0.0001_h0.0001, Best Acc:0.76653, std: 0.00395
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:1, Reg_feature_map_m0.0001_h0.0001, Best Epoch:12, Best Acc:0.78821
+Dataset:bace, Split:random, Fewshot_True_500, Seed:0, Reg_feature_map_m0.0001_h0.0001, Best Epoch:26, Best Acc:0.86625
+Dataset:bace, Split:size, Fewshot_True_500, Seed:2, Reg_feature_map_m0.0001_h0.0001, Best Epoch:43, Best Acc:0.64382
+Dataset:bace, Split:size, Fewshot_True_500, All seed, Reg_feature_map_m0.0001_h0.0001, Best Acc:0.62588, std: 0.01342
+Dataset:bace, Split:random, Fewshot_True_500, Seed:1, Reg_feature_map_m0.0001_h0.0001, Best Epoch:66, Best Acc:0.87010
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:0, Reg_feature_map_m0.0001_h0.0001, Best Epoch:12, Best Acc:0.79012
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:2, Reg_feature_map_m0.0001_h0.0001, Best Epoch:12, Best Acc:0.78925
+Dataset:bace, Split:scaffold, Fewshot_True_500, All seed, Reg_feature_map_m0.0001_h0.0001, Best Acc:0.78920, std: 0.00078
+Dataset:bace, Split:random, Fewshot_True_500, Seed:1, Reg_feature_map_m0.0001_h0.0001, Best Epoch:55, Best Acc:0.84016
+Dataset:bace, Split:random, Fewshot_True_500, Seed:2, Reg_feature_map_m0.0001_h0.0001, Best Epoch:66, Best Acc:0.86905
+Dataset:bace, Split:random, Fewshot_True_500, All seed, Reg_feature_map_m0.0001_h0.0001, Best Acc:0.87016, std: 0.00093
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:1, Reg_feature_map_m0.0001_h0.0001, Best Epoch:12, Best Acc:0.78908
+Dataset:bace, Split:random, Fewshot_True_500, Seed:2, Reg_feature_map_m0.0001_h0.0001, Best Epoch:26, Best Acc:0.86852
+Dataset:bace, Split:random, Fewshot_True_500, All seed, Reg_feature_map_m0.0001_h0.0001, Best Acc:0.85831, std: 0.01287
+Dataset:bace, Split:size, Fewshot_False_50, Seed:0, Reg_feature_map_m0.0001_h0.0001, Best Epoch:97, Best Acc:0.64725
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:2, Reg_feature_map_m0.0001_h0.0001, Best Epoch:12, Best Acc:0.78891
+Dataset:bace, Split:scaffold, Fewshot_True_500, All seed, Reg_feature_map_m0.0001_h0.0001, Best Acc:0.78937, std: 0.00054
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:0, Reg_feature_map_m0.0001_h0.0001, Best Epoch:3, Best Acc:0.81916
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, Reg_feature_map_m0.0001_h0.0001, Best Epoch:33, Best Acc:0.90686
+Dataset:bace, Split:size, Fewshot_False_50, Seed:1, Reg_feature_map_m0.0001_h0.0001, Best Epoch:52, Best Acc:0.69990
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, Reg_feature_map_m0.0001_h0.0001, Best Epoch:33, Best Acc:0.90984
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:0, Reg_feature_map_m0.0001_h0.0001, Best Epoch:1, Best Acc:0.78439
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:1, Reg_feature_map_m0.0001_h0.0001, Best Epoch:3, Best Acc:0.81916
+Dataset:bace, Split:random, Fewshot_False_50, Seed:1, Reg_feature_map_m0.0001_h0.0001, Best Epoch:33, Best Acc:0.90704
+Dataset:bace, Split:size, Fewshot_False_50, Seed:2, Reg_feature_map_m0.0001_h0.0001, Best Epoch:12, Best Acc:0.66578
+Dataset:bace, Split:size, Fewshot_False_50, All seed, Reg_feature_map_m0.0001_h0.0001, Best Acc:0.67098, std: 0.02180
+Dataset:bace, Split:random, Fewshot_False_50, Seed:1, Reg_feature_map_m0.0001_h0.0001, Best Epoch:33, Best Acc:0.90651
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:1, Reg_feature_map_m0.0001_h0.0001, Best Epoch:3, Best Acc:0.81934
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:2, Reg_feature_map_m0.0001_h0.0001, Best Epoch:3, Best Acc:0.81951
+Dataset:bace, Split:scaffold, Fewshot_False_50, All seed, Reg_feature_map_m0.0001_h0.0001, Best Acc:0.81928, std: 0.00016
+Dataset:bace, Split:random, Fewshot_False_50, Seed:2, Reg_feature_map_m0.0001_h0.0001, Best Epoch:33, Best Acc:0.90861
+Dataset:bace, Split:random, Fewshot_False_50, All seed, Reg_feature_map_m0.0001_h0.0001, Best Acc:0.90750, std: 0.00079
+Dataset:bace, Split:random, Fewshot_False_50, Seed:2, Reg_feature_map_m0.0001_h0.0001, Best Epoch:33, Best Acc:0.90739
+Dataset:bace, Split:random, Fewshot_False_50, All seed, Reg_feature_map_m0.0001_h0.0001, Best Acc:0.90791, std: 0.00141
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:2, Reg_feature_map_m0.0001_h0.0001, Best Epoch:3, Best Acc:0.81951
+Dataset:bace, Split:scaffold, Fewshot_False_50, All seed, Reg_feature_map_m0.0001_h0.0001, Best Acc:0.80774, std: 0.01652
+Dataset:bace, Split:random, Fewshot_True_50, Seed:0, Reg_l2_sp_m1.0_h1.0, Best Epoch:59, Best Acc:0.80410
+Dataset:bace, Split:size, Fewshot_True_50, Seed:0, Reg_l2_sp_m1.0_h1.0, Best Epoch:14, Best Acc:0.56784
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:0, Reg_l2_sp_m1.0_h1.0, Best Epoch:6, Best Acc:0.67258
+Dataset:bace, Split:random, Fewshot_True_50, Seed:1, Reg_l2_sp_m1.0_h1.0, Best Epoch:63, Best Acc:0.80025
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:1, Reg_l2_sp_m1.0_h1.0, Best Epoch:6, Best Acc:0.67258
+Dataset:bace, Split:size, Fewshot_True_50, Seed:1, Reg_l2_sp_m1.0_h1.0, Best Epoch:14, Best Acc:0.56873
+Dataset:bace, Split:random, Fewshot_True_50, Seed:2, Reg_l2_sp_m1.0_h1.0, Best Epoch:63, Best Acc:0.79412
+Dataset:bace, Split:random, Fewshot_True_50, All seed, Reg_l2_sp_m1.0_h1.0, Best Acc:0.79949, std: 0.00411
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:2, Reg_l2_sp_m1.0_h1.0, Best Epoch:6, Best Acc:0.67258
+Dataset:bace, Split:scaffold, Fewshot_True_50, All seed, Reg_l2_sp_m1.0_h1.0, Best Acc:0.67258, std: 0.00000
+Dataset:bace, Split:size, Fewshot_True_50, Seed:2, Reg_l2_sp_m1.0_h1.0, Best Epoch:14, Best Acc:0.56784
+Dataset:bace, Split:size, Fewshot_True_50, All seed, Reg_l2_sp_m1.0_h1.0, Best Acc:0.56814, std: 0.00042
+Dataset:bace, Split:random, Fewshot_True_100, Seed:0, Reg_l2_sp_m1.0_h1.0, Best Epoch:95, Best Acc:0.79149
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:0, Reg_l2_sp_m1.0_h1.0, Best Epoch:49, Best Acc:0.56790
+Dataset:bace, Split:size, Fewshot_True_100, Seed:0, Reg_l2_sp_m1.0_h1.0, Best Epoch:11, Best Acc:0.51667
+Dataset:bace, Split:random, Fewshot_True_100, Seed:1, Reg_l2_sp_m1.0_h1.0, Best Epoch:58, Best Acc:0.79919
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:1, Reg_l2_sp_m1.0_h1.0, Best Epoch:49, Best Acc:0.55851
+Dataset:bace, Split:size, Fewshot_True_100, Seed:1, Reg_l2_sp_m1.0_h1.0, Best Epoch:11, Best Acc:0.51157
+Dataset:bace, Split:random, Fewshot_True_100, Seed:2, Reg_l2_sp_m1.0_h1.0, Best Epoch:58, Best Acc:0.79674
+Dataset:bace, Split:random, Fewshot_True_100, All seed, Reg_l2_sp_m1.0_h1.0, Best Acc:0.79581, std: 0.00321
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:2, Reg_l2_sp_m1.0_h1.0, Best Epoch:49, Best Acc:0.59920
+Dataset:bace, Split:scaffold, Fewshot_True_100, All seed, Reg_l2_sp_m1.0_h1.0, Best Acc:0.57520, std: 0.01740
+Dataset:bace, Split:size, Fewshot_True_100, Seed:2, Reg_l2_sp_m1.0_h1.0, Best Epoch:11, Best Acc:0.51588
+Dataset:bace, Split:size, Fewshot_True_100, All seed, Reg_l2_sp_m1.0_h1.0, Best Acc:0.51471, std: 0.00224
+Dataset:bace, Split:random, Fewshot_True_500, Seed:0, Reg_l2_sp_m1.0_h1.0, Best Epoch:51, Best Acc:0.82511
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:0, Reg_l2_sp_m1.0_h1.0, Best Epoch:64, Best Acc:0.75170
+Dataset:bace, Split:size, Fewshot_True_500, Seed:0, Reg_l2_sp_m1.0_h1.0, Best Epoch:20, Best Acc:0.56304
+Dataset:bace, Split:random, Fewshot_True_500, Seed:1, Reg_l2_sp_m1.0_h1.0, Best Epoch:51, Best Acc:0.81250
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:1, Reg_l2_sp_m1.0_h1.0, Best Epoch:77, Best Acc:0.73970
+Dataset:bace, Split:size, Fewshot_True_500, Seed:1, Reg_l2_sp_m1.0_h1.0, Best Epoch:20, Best Acc:0.55588
+Dataset:bace, Split:random, Fewshot_True_500, Seed:2, Reg_l2_sp_m1.0_h1.0, Best Epoch:51, Best Acc:0.81740
+Dataset:bace, Split:random, Fewshot_True_500, All seed, Reg_l2_sp_m1.0_h1.0, Best Acc:0.81834, std: 0.00519
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:2, Reg_l2_sp_m1.0_h1.0, Best Epoch:48, Best Acc:0.75865
+Dataset:bace, Split:scaffold, Fewshot_True_500, All seed, Reg_l2_sp_m1.0_h1.0, Best Acc:0.75001, std: 0.00783
+Dataset:bace, Split:size, Fewshot_True_500, Seed:2, Reg_l2_sp_m1.0_h1.0, Best Epoch:20, Best Acc:0.55863
+Dataset:bace, Split:size, Fewshot_True_500, All seed, Reg_l2_sp_m1.0_h1.0, Best Acc:0.55918, std: 0.00295
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:0, Reg_l2_sp_m1.0_h1.0, Best Epoch:39, Best Acc:0.76613
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, Reg_l2_sp_m1.0_h1.0, Best Epoch:95, Best Acc:0.79044
+Dataset:bace, Split:size, Fewshot_False_50, Seed:0, Reg_l2_sp_m1.0_h1.0, Best Epoch:39, Best Acc:0.52069
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:1, Reg_l2_sp_m1.0_h1.0, Best Epoch:39, Best Acc:0.75187
+Dataset:bace, Split:random, Fewshot_False_50, Seed:1, Reg_l2_sp_m1.0_h1.0, Best Epoch:95, Best Acc:0.78817
+Dataset:bace, Split:size, Fewshot_False_50, Seed:1, Reg_l2_sp_m1.0_h1.0, Best Epoch:72, Best Acc:0.56627
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:2, Reg_l2_sp_m1.0_h1.0, Best Epoch:39, Best Acc:0.76387
+Dataset:bace, Split:scaffold, Fewshot_False_50, All seed, Reg_l2_sp_m1.0_h1.0, Best Acc:0.76062, std: 0.00626
+Dataset:bace, Split:random, Fewshot_False_50, Seed:2, Reg_l2_sp_m1.0_h1.0, Best Epoch:78, Best Acc:0.81670
+Dataset:bace, Split:random, Fewshot_False_50, All seed, Reg_l2_sp_m1.0_h1.0, Best Acc:0.79844, std: 0.01295
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:0, Reg_l2_sp_m0.1_h0.1, Best Epoch:5, Best Acc:0.74630
+Dataset:bace, Split:size, Fewshot_False_50, Seed:2, Reg_l2_sp_m1.0_h1.0, Best Epoch:72, Best Acc:0.55137
+Dataset:bace, Split:size, Fewshot_False_50, All seed, Reg_l2_sp_m1.0_h1.0, Best Acc:0.54611, std: 0.01898
+Dataset:bace, Split:random, Fewshot_True_50, Seed:0, Reg_l2_sp_m0.1_h0.1, Best Epoch:15, Best Acc:0.80252
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:1, Reg_l2_sp_m0.1_h0.1, Best Epoch:5, Best Acc:0.74630
+Dataset:bace, Split:size, Fewshot_True_50, Seed:0, Reg_l2_sp_m0.1_h0.1, Best Epoch:31, Best Acc:0.47775
+Dataset:bace, Split:random, Fewshot_True_50, Seed:1, Reg_l2_sp_m0.1_h0.1, Best Epoch:15, Best Acc:0.80235
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:2, Reg_l2_sp_m0.1_h0.1, Best Epoch:5, Best Acc:0.74630
+Dataset:bace, Split:scaffold, Fewshot_True_50, All seed, Reg_l2_sp_m0.1_h0.1, Best Acc:0.74630, std: 0.00000
+Dataset:bace, Split:size, Fewshot_True_50, Seed:1, Reg_l2_sp_m0.1_h0.1, Best Epoch:31, Best Acc:0.48676
+Dataset:bace, Split:random, Fewshot_True_50, Seed:2, Reg_l2_sp_m0.1_h0.1, Best Epoch:15, Best Acc:0.80252
+Dataset:bace, Split:random, Fewshot_True_50, All seed, Reg_l2_sp_m0.1_h0.1, Best Acc:0.80246, std: 0.00008
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:0, Reg_l2_sp_m0.1_h0.1, Best Epoch:48, Best Acc:0.77360
+Dataset:bace, Split:size, Fewshot_True_50, Seed:2, Reg_l2_sp_m0.1_h0.1, Best Epoch:31, Best Acc:0.47676
+Dataset:bace, Split:size, Fewshot_True_50, All seed, Reg_l2_sp_m0.1_h0.1, Best Acc:0.48042, std: 0.00450
+Dataset:bace, Split:random, Fewshot_True_100, Seed:0, Reg_l2_sp_m0.1_h0.1, Best Epoch:86, Best Acc:0.80340
+Dataset:bace, Split:random, Fewshot_True_100, Seed:1, Reg_l2_sp_m0.1_h0.1, Best Epoch:84, Best Acc:0.80725
+Dataset:bace, Split:random, Fewshot_True_100, Seed:2, Reg_l2_sp_m0.1_h0.1, Best Epoch:50, Best Acc:0.82300
+Dataset:bace, Split:random, Fewshot_True_100, All seed, Reg_l2_sp_m0.1_h0.1, Best Acc:0.81122, std: 0.00848
+Dataset:bace, Split:random, Fewshot_True_500, Seed:0, Reg_l2_sp_m0.1_h0.1, Best Epoch:48, Best Acc:0.82756
+Dataset:bace, Split:random, Fewshot_True_500, Seed:1, Reg_l2_sp_m0.1_h0.1, Best Epoch:48, Best Acc:0.81968
+Dataset:bace, Split:random, Fewshot_True_500, Seed:2, Reg_l2_sp_m0.1_h0.1, Best Epoch:99, Best Acc:0.81303
+Dataset:bace, Split:random, Fewshot_True_500, All seed, Reg_l2_sp_m0.1_h0.1, Best Acc:0.82009, std: 0.00594
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, Reg_l2_sp_m0.1_h0.1, Best Epoch:28, Best Acc:0.83859
+Dataset:bace, Split:random, Fewshot_False_50, Seed:1, Reg_l2_sp_m0.1_h0.1, Best Epoch:97, Best Acc:0.84559
+Dataset:bace, Split:random, Fewshot_False_50, Seed:2, Reg_l2_sp_m0.1_h0.1, Best Epoch:97, Best Acc:0.83316
+Dataset:bace, Split:random, Fewshot_False_50, All seed, Reg_l2_sp_m0.1_h0.1, Best Acc:0.83911, std: 0.00509
+Dataset:bace, Split:random, Fewshot_True_50, Seed:0, Reg_l2_sp_m0.01_h0.01, Best Epoch:5, Best Acc:0.79919
+Dataset:bace, Split:random, Fewshot_True_50, Seed:1, Reg_l2_sp_m0.01_h0.01, Best Epoch:5, Best Acc:0.79919
+Dataset:bace, Split:random, Fewshot_True_50, Seed:2, Reg_l2_sp_m0.01_h0.01, Best Epoch:5, Best Acc:0.79919
+Dataset:bace, Split:random, Fewshot_True_50, All seed, Reg_l2_sp_m0.01_h0.01, Best Acc:0.79919, std: 0.00000
+Dataset:bace, Split:random, Fewshot_True_100, Seed:0, Reg_l2_sp_m0.01_h0.01, Best Epoch:35, Best Acc:0.80217
+Dataset:bace, Split:random, Fewshot_True_100, Seed:1, Reg_l2_sp_m0.01_h0.01, Best Epoch:32, Best Acc:0.82073
+Dataset:bace, Split:random, Fewshot_True_100, Seed:2, Reg_l2_sp_m0.01_h0.01, Best Epoch:84, Best Acc:0.82581
+Dataset:bace, Split:random, Fewshot_True_100, All seed, Reg_l2_sp_m0.01_h0.01, Best Acc:0.81623, std: 0.01016
+Dataset:bace, Split:random, Fewshot_True_500, Seed:0, Reg_l2_sp_m0.01_h0.01, Best Epoch:49, Best Acc:0.82546
+Dataset:bace, Split:random, Fewshot_True_500, Seed:1, Reg_l2_sp_m0.01_h0.01, Best Epoch:53, Best Acc:0.80480
+Dataset:bace, Split:random, Fewshot_True_500, Seed:2, Reg_l2_sp_m0.01_h0.01, Best Epoch:94, Best Acc:0.83911
+Dataset:bace, Split:random, Fewshot_True_500, All seed, Reg_l2_sp_m0.01_h0.01, Best Acc:0.82312, std: 0.01411
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, Reg_l2_sp_m0.01_h0.01, Best Epoch:98, Best Acc:0.87080
+Dataset:bace, Split:random, Fewshot_False_50, Seed:1, Reg_l2_sp_m0.01_h0.01, Best Epoch:58, Best Acc:0.86467
+Dataset:bace, Split:random, Fewshot_False_50, Seed:2, Reg_l2_sp_m0.01_h0.01, Best Epoch:75, Best Acc:0.85609
+Dataset:bace, Split:random, Fewshot_False_50, All seed, Reg_l2_sp_m0.01_h0.01, Best Acc:0.86385, std: 0.00603
+Dataset:bace, Split:random, Fewshot_True_50, Seed:0, Reg_l2_sp_m0.001_h0.001, Best Epoch:5, Best Acc:0.80567
+Dataset:bace, Split:random, Fewshot_True_50, Seed:1, Reg_l2_sp_m0.001_h0.001, Best Epoch:5, Best Acc:0.80567
+Dataset:bace, Split:random, Fewshot_True_50, Seed:2, Reg_l2_sp_m0.001_h0.001, Best Epoch:5, Best Acc:0.80567
+Dataset:bace, Split:random, Fewshot_True_50, All seed, Reg_l2_sp_m0.001_h0.001, Best Acc:0.80567, std: 0.00000
+Dataset:bace, Split:random, Fewshot_True_100, Seed:0, Reg_l2_sp_m0.001_h0.001, Best Epoch:32, Best Acc:0.82948
+Dataset:bace, Split:random, Fewshot_True_100, Seed:1, Reg_l2_sp_m0.001_h0.001, Best Epoch:21, Best Acc:0.80515
+Dataset:bace, Split:random, Fewshot_True_100, Seed:2, Reg_l2_sp_m0.001_h0.001, Best Epoch:21, Best Acc:0.80357
+Dataset:bace, Split:random, Fewshot_True_100, All seed, Reg_l2_sp_m0.001_h0.001, Best Acc:0.81273, std: 0.01186
+Dataset:bace, Split:random, Fewshot_True_500, Seed:0, Reg_l2_sp_m0.001_h0.001, Best Epoch:80, Best Acc:0.83596
+Dataset:bace, Split:random, Fewshot_True_500, Seed:1, Reg_l2_sp_m0.001_h0.001, Best Epoch:68, Best Acc:0.80655
+Dataset:bace, Split:random, Fewshot_True_500, Seed:2, Reg_l2_sp_m0.001_h0.001, Best Epoch:86, Best Acc:0.81145
+Dataset:bace, Split:random, Fewshot_True_500, All seed, Reg_l2_sp_m0.001_h0.001, Best Acc:0.81799, std: 0.01287
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, Reg_l2_sp_m0.001_h0.001, Best Epoch:96, Best Acc:0.87885
+Dataset:bace, Split:random, Fewshot_False_50, Seed:1, Reg_l2_sp_m0.001_h0.001, Best Epoch:97, Best Acc:0.85417
+Dataset:bace, Split:random, Fewshot_False_50, Seed:2, Reg_l2_sp_m0.001_h0.001, Best Epoch:90, Best Acc:0.88218
+Dataset:bace, Split:random, Fewshot_False_50, All seed, Reg_l2_sp_m0.001_h0.001, Best Acc:0.87173, std: 0.01249
+Dataset:bace, Split:random, Fewshot_True_50, Seed:0, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:5, Best Acc:0.80515
+Dataset:bace, Split:random, Fewshot_True_50, Seed:1, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:5, Best Acc:0.80515
+Dataset:bace, Split:random, Fewshot_True_50, Seed:2, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:5, Best Acc:0.80532
+Dataset:bace, Split:random, Fewshot_True_50, All seed, Reg_l2_sp_m0.0001_h0.0001, Best Acc:0.80521, std: 0.00008
+Dataset:bace, Split:random, Fewshot_True_100, Seed:0, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:29, Best Acc:0.80900
+Dataset:bace, Split:random, Fewshot_True_100, Seed:1, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:44, Best Acc:0.81478
+Dataset:bace, Split:random, Fewshot_True_100, Seed:2, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:19, Best Acc:0.81057
+Dataset:bace, Split:random, Fewshot_True_100, All seed, Reg_l2_sp_m0.0001_h0.0001, Best Acc:0.81145, std: 0.00244
+Dataset:bace, Split:random, Fewshot_True_500, Seed:0, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:98, Best Acc:0.83298
+Dataset:bace, Split:random, Fewshot_True_500, Seed:1, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:80, Best Acc:0.83316
+Dataset:bace, Split:random, Fewshot_True_500, Seed:2, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:78, Best Acc:0.78729
+Dataset:bace, Split:random, Fewshot_True_500, All seed, Reg_l2_sp_m0.0001_h0.0001, Best Acc:0.81781, std: 0.02158
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:98, Best Acc:0.88358
+Dataset:bace, Split:random, Fewshot_False_50, Seed:1, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:96, Best Acc:0.89146
+Dataset:bace, Split:random, Fewshot_False_50, Seed:2, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:71, Best Acc:0.87955
+Dataset:bace, Split:random, Fewshot_False_50, All seed, Reg_l2_sp_m0.0001_h0.0001, Best Acc:0.88486, std: 0.00494
+Dataset:bace, Split:size, Fewshot_True_50, Seed:0, Reg_l2_sp_m1.0_h1.0, Best Epoch:14, Best Acc:0.56853
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:0, Reg_l2_sp_m1.0_h1.0, Best Epoch:6, Best Acc:0.67258
+Dataset:bace, Split:size, Fewshot_True_50, Seed:1, Reg_l2_sp_m1.0_h1.0, Best Epoch:14, Best Acc:0.56814
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:1, Reg_l2_sp_m1.0_h1.0, Best Epoch:6, Best Acc:0.67258
+Dataset:bace, Split:size, Fewshot_True_50, Seed:2, Reg_l2_sp_m1.0_h1.0, Best Epoch:14, Best Acc:0.56706
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:2, Reg_l2_sp_m1.0_h1.0, Best Epoch:6, Best Acc:0.67258
+Dataset:bace, Split:size, Fewshot_True_50, Seed:3, Reg_l2_sp_m1.0_h1.0, Best Epoch:14, Best Acc:0.56873
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:3, Reg_l2_sp_m1.0_h1.0, Best Epoch:6, Best Acc:0.67258
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:4, Reg_l2_sp_m1.0_h1.0, Best Epoch:6, Best Acc:0.67258
+Dataset:bace, Split:scaffold, Fewshot_True_50, All seed, Reg_l2_sp_m1.0_h1.0, Best Acc:0.67258, std: 0.00000
+Dataset:bace, Split:size, Fewshot_True_100, Seed:0, Reg_l2_sp_m1.0_h1.0, Best Epoch:11, Best Acc:0.51627
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:0, Reg_l2_sp_m1.0_h1.0, Best Epoch:49, Best Acc:0.60824
+Dataset:bace, Split:size, Fewshot_True_100, Seed:1, Reg_l2_sp_m1.0_h1.0, Best Epoch:11, Best Acc:0.51412
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:1, Reg_l2_sp_m1.0_h1.0, Best Epoch:49, Best Acc:0.58442
+Dataset:bace, Split:size, Fewshot_True_100, Seed:2, Reg_l2_sp_m1.0_h1.0, Best Epoch:11, Best Acc:0.51255
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:2, Reg_l2_sp_m1.0_h1.0, Best Epoch:49, Best Acc:0.55642
+Dataset:bace, Split:size, Fewshot_True_100, Seed:3, Reg_l2_sp_m1.0_h1.0, Best Epoch:11, Best Acc:0.50784
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:3, Reg_l2_sp_m1.0_h1.0, Best Epoch:49, Best Acc:0.56773
+Dataset:bace, Split:size, Fewshot_True_100, Seed:4, Reg_l2_sp_m1.0_h1.0, Best Epoch:90, Best Acc:0.52284
+Dataset:bace, Split:size, Fewshot_True_100, All seed, Reg_l2_sp_m1.0_h1.0, Best Acc:0.51473, std: 0.00491
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:4, Reg_l2_sp_m1.0_h1.0, Best Epoch:49, Best Acc:0.56547
+Dataset:bace, Split:scaffold, Fewshot_True_100, All seed, Reg_l2_sp_m1.0_h1.0, Best Acc:0.57646, std: 0.01829
+Dataset:bace, Split:size, Fewshot_True_500, Seed:0, Reg_l2_sp_m1.0_h1.0, Best Epoch:20, Best Acc:0.59216
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:0, Reg_l2_sp_m1.0_h1.0, Best Epoch:77, Best Acc:0.74022
+Dataset:bace, Split:size, Fewshot_True_500, Seed:1, Reg_l2_sp_m1.0_h1.0, Best Epoch:20, Best Acc:0.62980
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:1, Reg_l2_sp_m1.0_h1.0, Best Epoch:26, Best Acc:0.76839
+Dataset:bace, Split:size, Fewshot_True_500, Seed:2, Reg_l2_sp_m1.0_h1.0, Best Epoch:20, Best Acc:0.55088
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:2, Reg_l2_sp_m1.0_h1.0, Best Epoch:50, Best Acc:0.76595
+Dataset:bace, Split:size, Fewshot_True_500, Seed:3, Reg_l2_sp_m1.0_h1.0, Best Epoch:20, Best Acc:0.57353
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:3, Reg_l2_sp_m1.0_h1.0, Best Epoch:77, Best Acc:0.74561
+Dataset:bace, Split:size, Fewshot_True_500, Seed:4, Reg_l2_sp_m1.0_h1.0, Best Epoch:20, Best Acc:0.62539
+Dataset:bace, Split:size, Fewshot_True_500, All seed, Reg_l2_sp_m1.0_h1.0, Best Acc:0.59435, std: 0.03016
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:4, Reg_l2_sp_m1.0_h1.0, Best Epoch:77, Best Acc:0.74857
+Dataset:bace, Split:scaffold, Fewshot_True_500, All seed, Reg_l2_sp_m1.0_h1.0, Best Acc:0.75375, std: 0.01131
+Dataset:bace, Split:size, Fewshot_False_50, Seed:0, Reg_l2_sp_m1.0_h1.0, Best Epoch:72, Best Acc:0.55627
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:0, Reg_l2_sp_m1.0_h1.0, Best Epoch:39, Best Acc:0.76213
+Dataset:bace, Split:size, Fewshot_False_50, Seed:1, Reg_l2_sp_m1.0_h1.0, Best Epoch:12, Best Acc:0.51951
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:1, Reg_l2_sp_m1.0_h1.0, Best Epoch:39, Best Acc:0.76561
+Dataset:bace, Split:size, Fewshot_False_50, Seed:2, Reg_l2_sp_m1.0_h1.0, Best Epoch:72, Best Acc:0.55127
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:2, Reg_l2_sp_m1.0_h1.0, Best Epoch:64, Best Acc:0.78247
+Dataset:bace, Split:size, Fewshot_False_50, Seed:3, Reg_l2_sp_m1.0_h1.0, Best Epoch:72, Best Acc:0.55265
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:3, Reg_l2_sp_m1.0_h1.0, Best Epoch:39, Best Acc:0.75535
+Dataset:bace, Split:size, Fewshot_False_50, Seed:4, Reg_l2_sp_m1.0_h1.0, Best Epoch:72, Best Acc:0.57422
+Dataset:bace, Split:size, Fewshot_False_50, All seed, Reg_l2_sp_m1.0_h1.0, Best Acc:0.55078, std: 0.01767
+Dataset:bace, Split:size, Fewshot_True_50, Seed:0, Reg_l2_sp_m0.1_h0.1, Best Epoch:31, Best Acc:0.47902
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:4, Reg_l2_sp_m1.0_h1.0, Best Epoch:64, Best Acc:0.77778
+Dataset:bace, Split:scaffold, Fewshot_False_50, All seed, Reg_l2_sp_m1.0_h1.0, Best Acc:0.76867, std: 0.01003
+Dataset:bace, Split:size, Fewshot_True_50, Seed:1, Reg_l2_sp_m0.1_h0.1, Best Epoch:31, Best Acc:0.48147
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:0, Reg_l2_sp_m0.1_h0.1, Best Epoch:5, Best Acc:0.74630
+Dataset:bace, Split:size, Fewshot_True_50, Seed:2, Reg_l2_sp_m0.1_h0.1, Best Epoch:31, Best Acc:0.47657
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:1, Reg_l2_sp_m0.1_h0.1, Best Epoch:5, Best Acc:0.74630
+Dataset:bace, Split:size, Fewshot_True_50, Seed:3, Reg_l2_sp_m0.1_h0.1, Best Epoch:31, Best Acc:0.46206
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:2, Reg_l2_sp_m0.1_h0.1, Best Epoch:5, Best Acc:0.74630
+Dataset:bace, Split:size, Fewshot_True_50, Seed:4, Reg_l2_sp_m0.1_h0.1, Best Epoch:97, Best Acc:0.54098
+Dataset:bace, Split:size, Fewshot_True_50, All seed, Reg_l2_sp_m0.1_h0.1, Best Acc:0.48802, std: 0.02733
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:3, Reg_l2_sp_m0.1_h0.1, Best Epoch:5, Best Acc:0.74630
+Dataset:bace, Split:size, Fewshot_True_100, Seed:0, Reg_l2_sp_m0.1_h0.1, Best Epoch:34, Best Acc:0.51078
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:4, Reg_l2_sp_m0.1_h0.1, Best Epoch:5, Best Acc:0.74630
+Dataset:bace, Split:scaffold, Fewshot_True_50, All seed, Reg_l2_sp_m0.1_h0.1, Best Acc:0.74630, std: 0.00000
+Dataset:bace, Split:size, Fewshot_True_100, Seed:1, Reg_l2_sp_m0.1_h0.1, Best Epoch:34, Best Acc:0.50471
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:0, Reg_l2_sp_m0.1_h0.1, Best Epoch:29, Best Acc:0.77500
+Dataset:bace, Split:size, Fewshot_True_100, Seed:2, Reg_l2_sp_m0.1_h0.1, Best Epoch:64, Best Acc:0.55990
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:1, Reg_l2_sp_m0.1_h0.1, Best Epoch:25, Best Acc:0.77169
+Dataset:bace, Split:size, Fewshot_True_100, Seed:3, Reg_l2_sp_m0.1_h0.1, Best Epoch:35, Best Acc:0.56353
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:2, Reg_l2_sp_m0.1_h0.1, Best Epoch:73, Best Acc:0.77865
+Dataset:bace, Split:size, Fewshot_True_100, Seed:4, Reg_l2_sp_m0.1_h0.1, Best Epoch:34, Best Acc:0.51863
+Dataset:bace, Split:size, Fewshot_True_100, All seed, Reg_l2_sp_m0.1_h0.1, Best Acc:0.53151, std: 0.02508
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:3, Reg_l2_sp_m0.1_h0.1, Best Epoch:25, Best Acc:0.76995
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:4, Reg_l2_sp_m0.1_h0.1, Best Epoch:25, Best Acc:0.77882
+Dataset:bace, Split:scaffold, Fewshot_True_100, All seed, Reg_l2_sp_m0.1_h0.1, Best Acc:0.77482, std: 0.00358
+Dataset:bace, Split:size, Fewshot_True_500, Seed:0, Reg_l2_sp_m0.1_h0.1, Best Epoch:12, Best Acc:0.57186
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:0, Reg_l2_sp_m0.1_h0.1, Best Epoch:70, Best Acc:0.71692
+Dataset:bace, Split:size, Fewshot_True_500, Seed:1, Reg_l2_sp_m0.1_h0.1, Best Epoch:5, Best Acc:0.52490
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:1, Reg_l2_sp_m0.1_h0.1, Best Epoch:70, Best Acc:0.74909
+Dataset:bace, Split:size, Fewshot_True_500, Seed:2, Reg_l2_sp_m0.1_h0.1, Best Epoch:9, Best Acc:0.53225
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:2, Reg_l2_sp_m0.1_h0.1, Best Epoch:46, Best Acc:0.70023
+Dataset:bace, Split:size, Fewshot_True_500, Seed:3, Reg_l2_sp_m0.1_h0.1, Best Epoch:5, Best Acc:0.52333
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:3, Reg_l2_sp_m0.1_h0.1, Best Epoch:22, Best Acc:0.72944
+Dataset:bace, Split:size, Fewshot_True_500, Seed:4, Reg_l2_sp_m0.1_h0.1, Best Epoch:5, Best Acc:0.52686
+Dataset:bace, Split:size, Fewshot_True_500, All seed, Reg_l2_sp_m0.1_h0.1, Best Acc:0.53584, std: 0.01826
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:4, Reg_l2_sp_m0.1_h0.1, Best Epoch:46, Best Acc:0.74422
+Dataset:bace, Split:scaffold, Fewshot_True_500, All seed, Reg_l2_sp_m0.1_h0.1, Best Acc:0.72798, std: 0.01791
+Dataset:bace, Split:size, Fewshot_False_50, Seed:0, Reg_l2_sp_m0.1_h0.1, Best Epoch:24, Best Acc:0.52020
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:0, Reg_l2_sp_m0.1_h0.1, Best Epoch:76, Best Acc:0.73865
+Dataset:bace, Split:size, Fewshot_False_50, Seed:1, Reg_l2_sp_m0.1_h0.1, Best Epoch:20, Best Acc:0.56451
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:1, Reg_l2_sp_m0.1_h0.1, Best Epoch:80, Best Acc:0.72753
+Dataset:bace, Split:size, Fewshot_False_50, Seed:2, Reg_l2_sp_m0.1_h0.1, Best Epoch:24, Best Acc:0.51618
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:2, Reg_l2_sp_m0.1_h0.1, Best Epoch:76, Best Acc:0.70996
+Dataset:bace, Split:size, Fewshot_False_50, Seed:3, Reg_l2_sp_m0.1_h0.1, Best Epoch:24, Best Acc:0.53578
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:3, Reg_l2_sp_m0.1_h0.1, Best Epoch:1, Best Acc:0.79273
+Dataset:bace, Split:size, Fewshot_False_50, Seed:4, Reg_l2_sp_m0.1_h0.1, Best Epoch:24, Best Acc:0.51402
+Dataset:bace, Split:size, Fewshot_False_50, All seed, Reg_l2_sp_m0.1_h0.1, Best Acc:0.53014, std: 0.01880
+Dataset:bace, Split:size, Fewshot_True_50, Seed:0, Reg_l2_sp_m0.01_h0.01, Best Epoch:49, Best Acc:0.51696
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:4, Reg_l2_sp_m0.1_h0.1, Best Epoch:1, Best Acc:0.79099
+Dataset:bace, Split:scaffold, Fewshot_False_50, All seed, Reg_l2_sp_m0.1_h0.1, Best Acc:0.75197, std: 0.03383
+Dataset:bace, Split:size, Fewshot_True_50, Seed:1, Reg_l2_sp_m0.01_h0.01, Best Epoch:94, Best Acc:0.57039
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:0, Reg_l2_sp_m0.01_h0.01, Best Epoch:6, Best Acc:0.73274
+Dataset:bace, Split:size, Fewshot_True_50, Seed:2, Reg_l2_sp_m0.01_h0.01, Best Epoch:50, Best Acc:0.51863
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:1, Reg_l2_sp_m0.01_h0.01, Best Epoch:6, Best Acc:0.73274
+Dataset:bace, Split:size, Fewshot_True_50, Seed:3, Reg_l2_sp_m0.01_h0.01, Best Epoch:80, Best Acc:0.61539
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:2, Reg_l2_sp_m0.01_h0.01, Best Epoch:6, Best Acc:0.73274
+Dataset:bace, Split:size, Fewshot_True_50, Seed:4, Reg_l2_sp_m0.01_h0.01, Best Epoch:56, Best Acc:0.50098
+Dataset:bace, Split:size, Fewshot_True_50, All seed, Reg_l2_sp_m0.01_h0.01, Best Acc:0.54447, std: 0.04247
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:3, Reg_l2_sp_m0.01_h0.01, Best Epoch:6, Best Acc:0.73274
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:4, Reg_l2_sp_m0.01_h0.01, Best Epoch:6, Best Acc:0.73274
+Dataset:bace, Split:scaffold, Fewshot_True_50, All seed, Reg_l2_sp_m0.01_h0.01, Best Acc:0.73274, std: 0.00000
+Dataset:bace, Split:size, Fewshot_True_100, Seed:0, Reg_l2_sp_m0.01_h0.01, Best Epoch:36, Best Acc:0.57392
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:0, Reg_l2_sp_m0.01_h0.01, Best Epoch:48, Best Acc:0.78108
+Dataset:bace, Split:size, Fewshot_True_100, Seed:1, Reg_l2_sp_m0.01_h0.01, Best Epoch:35, Best Acc:0.54108
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:1, Reg_l2_sp_m0.01_h0.01, Best Epoch:53, Best Acc:0.74057
+Dataset:bace, Split:size, Fewshot_True_100, Seed:2, Reg_l2_sp_m0.01_h0.01, Best Epoch:62, Best Acc:0.56039
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:2, Reg_l2_sp_m0.01_h0.01, Best Epoch:33, Best Acc:0.74996
+Dataset:bace, Split:size, Fewshot_True_100, Seed:3, Reg_l2_sp_m0.01_h0.01, Best Epoch:35, Best Acc:0.50892
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:3, Reg_l2_sp_m0.01_h0.01, Best Epoch:70, Best Acc:0.77482
+Dataset:bace, Split:size, Fewshot_True_100, Seed:4, Reg_l2_sp_m0.01_h0.01, Best Epoch:35, Best Acc:0.53588
+Dataset:bace, Split:size, Fewshot_True_100, All seed, Reg_l2_sp_m0.01_h0.01, Best Acc:0.54404, std: 0.02222
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:4, Reg_l2_sp_m0.01_h0.01, Best Epoch:48, Best Acc:0.77465
+Dataset:bace, Split:scaffold, Fewshot_True_100, All seed, Reg_l2_sp_m0.01_h0.01, Best Acc:0.76421, std: 0.01593
+Dataset:bace, Split:size, Fewshot_True_500, Seed:0, Reg_l2_sp_m0.01_h0.01, Best Epoch:52, Best Acc:0.50853
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:0, Reg_l2_sp_m0.01_h0.01, Best Epoch:59, Best Acc:0.72840
+Dataset:bace, Split:size, Fewshot_True_500, Seed:1, Reg_l2_sp_m0.01_h0.01, Best Epoch:52, Best Acc:0.58990
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:1, Reg_l2_sp_m0.01_h0.01, Best Epoch:58, Best Acc:0.63033
+Dataset:bace, Split:size, Fewshot_True_500, Seed:2, Reg_l2_sp_m0.01_h0.01, Best Epoch:97, Best Acc:0.54176
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:2, Reg_l2_sp_m0.01_h0.01, Best Epoch:13, Best Acc:0.75239
+Dataset:bace, Split:size, Fewshot_True_500, Seed:3, Reg_l2_sp_m0.01_h0.01, Best Epoch:64, Best Acc:0.55618
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:3, Reg_l2_sp_m0.01_h0.01, Best Epoch:8, Best Acc:0.67223
+Dataset:bace, Split:size, Fewshot_True_500, Seed:4, Reg_l2_sp_m0.01_h0.01, Best Epoch:98, Best Acc:0.52118
+Dataset:bace, Split:size, Fewshot_True_500, All seed, Reg_l2_sp_m0.01_h0.01, Best Acc:0.54351, std: 0.02842
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:4, Reg_l2_sp_m0.01_h0.01, Best Epoch:71, Best Acc:0.72544
+Dataset:bace, Split:scaffold, Fewshot_True_500, All seed, Reg_l2_sp_m0.01_h0.01, Best Acc:0.70176, std: 0.04429
+Dataset:bace, Split:size, Fewshot_False_50, Seed:0, Reg_l2_sp_m0.01_h0.01, Best Epoch:68, Best Acc:0.66578
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:0, Reg_l2_sp_m0.01_h0.01, Best Epoch:95, Best Acc:0.71605
+Dataset:bace, Split:size, Fewshot_False_50, Seed:1, Reg_l2_sp_m0.01_h0.01, Best Epoch:8, Best Acc:0.51235
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:1, Reg_l2_sp_m0.01_h0.01, Best Epoch:91, Best Acc:0.77899
+Dataset:bace, Split:size, Fewshot_False_50, Seed:2, Reg_l2_sp_m0.01_h0.01, Best Epoch:65, Best Acc:0.64167
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:2, Reg_l2_sp_m0.01_h0.01, Best Epoch:76, Best Acc:0.79134
+Dataset:bace, Split:size, Fewshot_False_50, Seed:3, Reg_l2_sp_m0.01_h0.01, Best Epoch:16, Best Acc:0.59039
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:3, Reg_l2_sp_m0.01_h0.01, Best Epoch:90, Best Acc:0.79830
+Dataset:bace, Split:size, Fewshot_False_50, Seed:4, Reg_l2_sp_m0.01_h0.01, Best Epoch:53, Best Acc:0.56725
+Dataset:bace, Split:size, Fewshot_False_50, All seed, Reg_l2_sp_m0.01_h0.01, Best Acc:0.59549, std: 0.05442
+Dataset:bace, Split:size, Fewshot_True_50, Seed:0, Reg_l2_sp_m0.001_h0.001, Best Epoch:28, Best Acc:0.49549
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:4, Reg_l2_sp_m0.01_h0.01, Best Epoch:42, Best Acc:0.74387
+Dataset:bace, Split:scaffold, Fewshot_False_50, All seed, Reg_l2_sp_m0.01_h0.01, Best Acc:0.76571, std: 0.03111
+Dataset:bace, Split:size, Fewshot_True_50, Seed:1, Reg_l2_sp_m0.001_h0.001, Best Epoch:48, Best Acc:0.45716
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:0, Reg_l2_sp_m0.001_h0.001, Best Epoch:6, Best Acc:0.73483
+Dataset:bace, Split:size, Fewshot_True_50, Seed:2, Reg_l2_sp_m0.001_h0.001, Best Epoch:86, Best Acc:0.57647
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:1, Reg_l2_sp_m0.001_h0.001, Best Epoch:6, Best Acc:0.73483
+Dataset:bace, Split:size, Fewshot_True_50, Seed:3, Reg_l2_sp_m0.001_h0.001, Best Epoch:27, Best Acc:0.52118
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:2, Reg_l2_sp_m0.001_h0.001, Best Epoch:6, Best Acc:0.73483
+Dataset:bace, Split:size, Fewshot_True_50, Seed:4, Reg_l2_sp_m0.001_h0.001, Best Epoch:99, Best Acc:0.51137
+Dataset:bace, Split:size, Fewshot_True_50, All seed, Reg_l2_sp_m0.001_h0.001, Best Acc:0.51233, std: 0.03878
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:3, Reg_l2_sp_m0.001_h0.001, Best Epoch:6, Best Acc:0.73483
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:4, Reg_l2_sp_m0.001_h0.001, Best Epoch:6, Best Acc:0.73483
+Dataset:bace, Split:scaffold, Fewshot_True_50, All seed, Reg_l2_sp_m0.001_h0.001, Best Acc:0.73483, std: 0.00000
+Dataset:bace, Split:size, Fewshot_True_100, Seed:0, Reg_l2_sp_m0.001_h0.001, Best Epoch:66, Best Acc:0.50206
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:0, Reg_l2_sp_m0.001_h0.001, Best Epoch:8, Best Acc:0.77830
+Dataset:bace, Split:size, Fewshot_True_100, Seed:1, Reg_l2_sp_m0.001_h0.001, Best Epoch:83, Best Acc:0.50255
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:1, Reg_l2_sp_m0.001_h0.001, Best Epoch:8, Best Acc:0.77830
+Dataset:bace, Split:size, Fewshot_True_100, Seed:2, Reg_l2_sp_m0.001_h0.001, Best Epoch:39, Best Acc:0.41716
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:2, Reg_l2_sp_m0.001_h0.001, Best Epoch:8, Best Acc:0.77830
+Dataset:bace, Split:size, Fewshot_True_100, Seed:3, Reg_l2_sp_m0.001_h0.001, Best Epoch:75, Best Acc:0.52873
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:3, Reg_l2_sp_m0.001_h0.001, Best Epoch:8, Best Acc:0.77830
+Dataset:bace, Split:size, Fewshot_True_100, Seed:4, Reg_l2_sp_m0.001_h0.001, Best Epoch:77, Best Acc:0.52961
+Dataset:bace, Split:size, Fewshot_True_100, All seed, Reg_l2_sp_m0.001_h0.001, Best Acc:0.49602, std: 0.04122
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:4, Reg_l2_sp_m0.001_h0.001, Best Epoch:8, Best Acc:0.77830
+Dataset:bace, Split:scaffold, Fewshot_True_100, All seed, Reg_l2_sp_m0.001_h0.001, Best Acc:0.77830, std: 0.00000
+Dataset:bace, Split:size, Fewshot_True_500, Seed:0, Reg_l2_sp_m0.001_h0.001, Best Epoch:45, Best Acc:0.56137
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:0, Reg_l2_sp_m0.001_h0.001, Best Epoch:43, Best Acc:0.74404
+Dataset:bace, Split:size, Fewshot_True_500, Seed:1, Reg_l2_sp_m0.001_h0.001, Best Epoch:99, Best Acc:0.56422
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:1, Reg_l2_sp_m0.001_h0.001, Best Epoch:82, Best Acc:0.71275
+Dataset:bace, Split:size, Fewshot_True_500, Seed:2, Reg_l2_sp_m0.001_h0.001, Best Epoch:66, Best Acc:0.62235
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:2, Reg_l2_sp_m0.001_h0.001, Best Epoch:68, Best Acc:0.70840
+Dataset:bace, Split:size, Fewshot_True_500, Seed:3, Reg_l2_sp_m0.001_h0.001, Best Epoch:55, Best Acc:0.57853
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:3, Reg_l2_sp_m0.001_h0.001, Best Epoch:99, Best Acc:0.71049
+Dataset:bace, Split:size, Fewshot_True_500, Seed:4, Reg_l2_sp_m0.001_h0.001, Best Epoch:70, Best Acc:0.58206
+Dataset:bace, Split:size, Fewshot_True_500, All seed, Reg_l2_sp_m0.001_h0.001, Best Acc:0.58171, std: 0.02183
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:4, Reg_l2_sp_m0.001_h0.001, Best Epoch:72, Best Acc:0.69657
+Dataset:bace, Split:scaffold, Fewshot_True_500, All seed, Reg_l2_sp_m0.001_h0.001, Best Acc:0.71445, std: 0.01582
+Dataset:bace, Split:size, Fewshot_False_50, Seed:0, Reg_l2_sp_m0.001_h0.001, Best Epoch:84, Best Acc:0.56912
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:0, Reg_l2_sp_m0.001_h0.001, Best Epoch:96, Best Acc:0.71014
+Dataset:bace, Split:size, Fewshot_False_50, Seed:1, Reg_l2_sp_m0.001_h0.001, Best Epoch:66, Best Acc:0.70794
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:1, Reg_l2_sp_m0.001_h0.001, Best Epoch:46, Best Acc:0.75465
+Dataset:bace, Split:size, Fewshot_False_50, Seed:2, Reg_l2_sp_m0.001_h0.001, Best Epoch:88, Best Acc:0.62520
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:2, Reg_l2_sp_m0.001_h0.001, Best Epoch:88, Best Acc:0.73778
+Dataset:bace, Split:size, Fewshot_False_50, Seed:3, Reg_l2_sp_m0.001_h0.001, Best Epoch:32, Best Acc:0.55794
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:3, Reg_l2_sp_m0.001_h0.001, Best Epoch:36, Best Acc:0.73848
+Dataset:bace, Split:size, Fewshot_False_50, Seed:4, Reg_l2_sp_m0.001_h0.001, Best Epoch:86, Best Acc:0.66480
+Dataset:bace, Split:size, Fewshot_False_50, All seed, Reg_l2_sp_m0.001_h0.001, Best Acc:0.62500, std: 0.05672
+Dataset:bace, Split:size, Fewshot_True_50, Seed:0, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:28, Best Acc:0.53431
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:4, Reg_l2_sp_m0.001_h0.001, Best Epoch:98, Best Acc:0.76995
+Dataset:bace, Split:scaffold, Fewshot_False_50, All seed, Reg_l2_sp_m0.001_h0.001, Best Acc:0.74220, std: 0.01993
+Dataset:bace, Split:size, Fewshot_True_50, Seed:1, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:28, Best Acc:0.53353
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:0, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:6, Best Acc:0.73483
+Dataset:bace, Split:size, Fewshot_True_50, Seed:2, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:61, Best Acc:0.51275
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:1, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:6, Best Acc:0.73483
+Dataset:bace, Split:size, Fewshot_True_50, Seed:3, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:28, Best Acc:0.53461
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:2, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:6, Best Acc:0.73483
+Dataset:bace, Split:size, Fewshot_True_50, Seed:4, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:28, Best Acc:0.53363
+Dataset:bace, Split:size, Fewshot_True_50, All seed, Reg_l2_sp_m0.0001_h0.0001, Best Acc:0.52976, std: 0.00852
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:3, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:6, Best Acc:0.73483
+Dataset:bace, Split:size, Fewshot_True_100, Seed:0, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:67, Best Acc:0.51627
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:4, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:6, Best Acc:0.73483
+Dataset:bace, Split:scaffold, Fewshot_True_50, All seed, Reg_l2_sp_m0.0001_h0.0001, Best Acc:0.73483, std: 0.00000
+Dataset:bace, Split:size, Fewshot_True_100, Seed:1, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:69, Best Acc:0.48961
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:0, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:8, Best Acc:0.77778
+Dataset:bace, Split:size, Fewshot_True_100, Seed:2, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:37, Best Acc:0.55127
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:1, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:24, Best Acc:0.75569
+Dataset:bace, Split:size, Fewshot_True_100, Seed:3, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:90, Best Acc:0.58127
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:2, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:33, Best Acc:0.76369
+Dataset:bace, Split:size, Fewshot_True_100, Seed:4, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:98, Best Acc:0.50931
+Dataset:bace, Split:size, Fewshot_True_100, All seed, Reg_l2_sp_m0.0001_h0.0001, Best Acc:0.52955, std: 0.03265
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:3, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:25, Best Acc:0.75639
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:4, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:8, Best Acc:0.77778
+Dataset:bace, Split:scaffold, Fewshot_True_100, All seed, Reg_l2_sp_m0.0001_h0.0001, Best Acc:0.76627, std: 0.00981
+Dataset:bace, Split:size, Fewshot_True_500, Seed:0, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:79, Best Acc:0.60480
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:0, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:70, Best Acc:0.72283
+Dataset:bace, Split:size, Fewshot_True_500, Seed:1, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:29, Best Acc:0.57745
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:1, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:71, Best Acc:0.76526
+Dataset:bace, Split:size, Fewshot_True_500, Seed:2, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:87, Best Acc:0.57627
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:2, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:84, Best Acc:0.75969
+Dataset:bace, Split:size, Fewshot_True_500, Seed:3, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:63, Best Acc:0.59559
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:3, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:38, Best Acc:0.67327
+Dataset:bace, Split:size, Fewshot_True_500, Seed:4, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:55, Best Acc:0.53373
+Dataset:bace, Split:size, Fewshot_True_500, All seed, Reg_l2_sp_m0.0001_h0.0001, Best Acc:0.57757, std: 0.02446
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:4, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:94, Best Acc:0.80369
+Dataset:bace, Split:scaffold, Fewshot_True_500, All seed, Reg_l2_sp_m0.0001_h0.0001, Best Acc:0.74495, std: 0.04406
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:0, Reg_l2_sp_m0.0001_h0.0001, Best Epoch:89, Best Acc:0.81116
+Dataset:bace, Split:size, Fewshot_True_50, Seed:0, Reg_bss_m1.0_h1.0, Best Epoch:97, Best Acc:0.53225
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:0, Reg_bss_m1.0_h1.0, Best Epoch:0, Best Acc:0.75569
+Dataset:bace, Split:size, Fewshot_True_50, Seed:1, Reg_bss_m1.0_h1.0, Best Epoch:96, Best Acc:0.49402
+Dataset:bace, Split:size, Fewshot_True_50, Seed:2, Reg_bss_m1.0_h1.0, Best Epoch:96, Best Acc:0.50882
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:0, Reg_bss_m0.1_h0.1, Best Epoch:90, Best Acc:0.74404
+Dataset:bace, Split:size, Fewshot_True_50, Seed:0, Reg_bss_m0.1_h0.1, Best Epoch:46, Best Acc:0.51078
+Dataset:bace, Split:random, Fewshot_True_100, Seed:0, Reg_bss_m1.0_h1.0, Best Epoch:99, Best Acc:0.77994
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:1, Reg_bss_m0.1_h0.1, Best Epoch:0, Best Acc:0.72648
+Dataset:bace, Split:size, Fewshot_True_50, Seed:1, Reg_bss_m0.1_h0.1, Best Epoch:59, Best Acc:0.58304
+Dataset:bace, Split:random, Fewshot_True_100, Seed:1, Reg_bss_m1.0_h1.0, Best Epoch:99, Best Acc:0.77994
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:2, Reg_bss_m0.1_h0.1, Best Epoch:0, Best Acc:0.72648
+Dataset:bace, Split:size, Fewshot_True_100, Seed:0, Reg_bss_m0.1_h0.1, Best Epoch:83, Best Acc:0.57304
+Dataset:bace, Split:size, Fewshot_True_50, Seed:0, Reg_bss_m0.01_h0.01, Best Epoch:44, Best Acc:0.40157
+Dataset:bace, Split:size, Fewshot_True_50, Seed:1, Reg_bss_m0.01_h0.01, Best Epoch:72, Best Acc:0.44529
+Dataset:bace, Split:size, Fewshot_True_50, Seed:2, Reg_bss_m0.01_h0.01, Best Epoch:52, Best Acc:0.55373
+Dataset:bace, Split:size, Fewshot_True_50, Seed:3, Reg_bss_m0.01_h0.01, Best Epoch:53, Best Acc:0.54020
+Dataset:bace, Split:size, Fewshot_True_50, Seed:4, Reg_bss_m0.01_h0.01, Best Epoch:37, Best Acc:0.44284
+Dataset:bace, Split:size, Fewshot_True_50, All seed, Reg_bss_m0.01_h0.01, Best Acc:0.47673, std: 0.05957
+Dataset:bace, Split:size, Fewshot_True_100, Seed:0, Reg_bss_m0.01_h0.01, Best Epoch:81, Best Acc:0.53922
+Dataset:bace, Split:size, Fewshot_True_100, Seed:1, Reg_bss_m0.01_h0.01, Best Epoch:81, Best Acc:0.46108
+Dataset:bace, Split:size, Fewshot_True_100, Seed:2, Reg_bss_m0.01_h0.01, Best Epoch:64, Best Acc:0.56814
+Dataset:bace, Split:size, Fewshot_True_500, Seed:0, Reg_bss_m0.01_h0.01, Best Epoch:84, Best Acc:0.50137
+Dataset:bace, Split:size, Fewshot_True_500, Seed:1, Reg_bss_m0.01_h0.01, Best Epoch:94, Best Acc:0.54676
+Dataset:bace, Split:size, Fewshot_False_50, Seed:0, Reg_bss_m0.01_h0.01, Best Epoch:37, Best Acc:0.60529
+Dataset:bace, Split:size, Fewshot_False_50, Seed:1, Reg_bss_m0.01_h0.01, Best Epoch:57, Best Acc:0.62549
+Dataset:bace, Split:size, Fewshot_True_50, Seed:0, Reg_bss_m0.001_h0.001, Best Epoch:80, Best Acc:0.53824
+Dataset:bace, Split:size, Fewshot_True_50, Seed:1, Reg_bss_m0.001_h0.001, Best Epoch:26, Best Acc:0.47725
+Dataset:bace, Split:size, Fewshot_True_50, Seed:2, Reg_bss_m0.001_h0.001, Best Epoch:77, Best Acc:0.52127
+Dataset:bace, Split:size, Fewshot_True_50, Seed:3, Reg_bss_m0.001_h0.001, Best Epoch:75, Best Acc:0.53912
+Dataset:bace, Split:size, Fewshot_True_50, Seed:4, Reg_bss_m0.001_h0.001, Best Epoch:55, Best Acc:0.45392
+Dataset:bace, Split:size, Fewshot_True_50, All seed, Reg_bss_m0.001_h0.001, Best Acc:0.50596, std: 0.03437
+Dataset:bace, Split:size, Fewshot_True_100, Seed:0, Reg_bss_m0.001_h0.001, Best Epoch:55, Best Acc:0.56225
+Dataset:bace, Split:size, Fewshot_True_100, Seed:1, Reg_bss_m0.001_h0.001, Best Epoch:64, Best Acc:0.51392
+Dataset:bace, Split:size, Fewshot_True_100, Seed:2, Reg_bss_m0.001_h0.001, Best Epoch:37, Best Acc:0.51176
+Dataset:bace, Split:size, Fewshot_True_100, Seed:3, Reg_bss_m0.001_h0.001, Best Epoch:97, Best Acc:0.58618
+Dataset:bace, Split:size, Fewshot_True_100, Seed:4, Reg_bss_m0.001_h0.001, Best Epoch:58, Best Acc:0.59990
+Dataset:bace, Split:size, Fewshot_True_100, All seed, Reg_bss_m0.001_h0.001, Best Acc:0.55480, std: 0.03632
+Dataset:bace, Split:size, Fewshot_True_500, Seed:0, Reg_bss_m0.001_h0.001, Best Epoch:76, Best Acc:0.60500
+Dataset:bace, Split:size, Fewshot_True_50, Seed:0, Reg_bss_m0.0001_h0.0001, Best Epoch:36, Best Acc:0.59196
+Dataset:bace, Split:size, Fewshot_True_50, Seed:1, Reg_bss_m0.0001_h0.0001, Best Epoch:34, Best Acc:0.61088
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:0, Reg_bss_m0.1_h0.1, Best Epoch:98, Best Acc:0.76126
+Dataset:bace, Split:size, Fewshot_True_50, Seed:2, Reg_bss_m0.0001_h0.0001, Best Epoch:60, Best Acc:0.56078
+Dataset:bace, Split:size, Fewshot_True_50, Seed:3, Reg_bss_m0.0001_h0.0001, Best Epoch:93, Best Acc:0.50186
+Dataset:bace, Split:size, Fewshot_True_50, Seed:4, Reg_bss_m0.0001_h0.0001, Best Epoch:35, Best Acc:0.58020
+Dataset:bace, Split:size, Fewshot_True_50, All seed, Reg_bss_m0.0001_h0.0001, Best Acc:0.56914, std: 0.03737
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:1, Reg_bss_m0.1_h0.1, Best Epoch:79, Best Acc:0.78456
+Dataset:bace, Split:size, Fewshot_True_100, Seed:0, Reg_bss_m0.0001_h0.0001, Best Epoch:65, Best Acc:0.50902
+Dataset:bace, Split:size, Fewshot_True_100, Seed:1, Reg_bss_m0.0001_h0.0001, Best Epoch:65, Best Acc:0.53725
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:2, Reg_bss_m0.1_h0.1, Best Epoch:52, Best Acc:0.68110
+Dataset:bace, Split:size, Fewshot_True_100, Seed:2, Reg_bss_m0.0001_h0.0001, Best Epoch:97, Best Acc:0.58088
+Dataset:bace, Split:size, Fewshot_True_100, Seed:3, Reg_bss_m0.0001_h0.0001, Best Epoch:98, Best Acc:0.62578
+Dataset:bace, Split:size, Fewshot_True_100, Seed:4, Reg_bss_m0.0001_h0.0001, Best Epoch:95, Best Acc:0.56843
+Dataset:bace, Split:size, Fewshot_True_100, All seed, Reg_bss_m0.0001_h0.0001, Best Acc:0.56427, std: 0.03965
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:3, Reg_bss_m0.1_h0.1, Best Epoch:88, Best Acc:0.71344
+Dataset:bace, Split:size, Fewshot_True_500, Seed:0, Reg_bss_m0.0001_h0.0001, Best Epoch:38, Best Acc:0.58275
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:4, Reg_bss_m0.1_h0.1, Best Epoch:88, Best Acc:0.80073
+Dataset:bace, Split:scaffold, Fewshot_True_500, All seed, Reg_bss_m0.1_h0.1, Best Acc:0.74822, std: 0.04464
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:0, Reg_bss_m0.01_h0.01, Best Epoch:0, Best Acc:0.74091
+Dataset:bace, Split:size, Fewshot_True_500, Seed:1, Reg_bss_m0.0001_h0.0001, Best Epoch:92, Best Acc:0.55010
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:1, Reg_bss_m0.01_h0.01, Best Epoch:0, Best Acc:0.74091
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:2, Reg_bss_m0.01_h0.01, Best Epoch:42, Best Acc:0.71987
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:3, Reg_bss_m0.01_h0.01, Best Epoch:64, Best Acc:0.77100
+Dataset:bace, Split:size, Fewshot_True_500, Seed:2, Reg_bss_m0.0001_h0.0001, Best Epoch:76, Best Acc:0.61735
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:4, Reg_bss_m0.01_h0.01, Best Epoch:0, Best Acc:0.74091
+Dataset:bace, Split:scaffold, Fewshot_True_50, All seed, Reg_bss_m0.01_h0.01, Best Acc:0.74272, std: 0.01632
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:0, Reg_bss_m0.01_h0.01, Best Epoch:76, Best Acc:0.72509
+Dataset:bace, Split:size, Fewshot_True_500, Seed:3, Reg_bss_m0.0001_h0.0001, Best Epoch:66, Best Acc:0.66588
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:1, Reg_bss_m0.01_h0.01, Best Epoch:71, Best Acc:0.75656
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:2, Reg_bss_m0.01_h0.01, Best Epoch:56, Best Acc:0.75187
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:3, Reg_bss_m0.01_h0.01, Best Epoch:42, Best Acc:0.75256
+Dataset:bace, Split:size, Fewshot_True_500, Seed:4, Reg_bss_m0.0001_h0.0001, Best Epoch:64, Best Acc:0.59529
+Dataset:bace, Split:size, Fewshot_True_500, All seed, Reg_bss_m0.0001_h0.0001, Best Acc:0.60227, std: 0.03854
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:4, Reg_bss_m0.01_h0.01, Best Epoch:22, Best Acc:0.76074
+Dataset:bace, Split:scaffold, Fewshot_True_100, All seed, Reg_bss_m0.01_h0.01, Best Acc:0.74937, std: 0.01254
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:0, Reg_bss_m0.01_h0.01, Best Epoch:71, Best Acc:0.69310
+Dataset:bace, Split:size, Fewshot_False_50, Seed:0, Reg_bss_m0.0001_h0.0001, Best Epoch:33, Best Acc:0.61196
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:1, Reg_bss_m0.01_h0.01, Best Epoch:99, Best Acc:0.79412
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:2, Reg_bss_m0.01_h0.01, Best Epoch:30, Best Acc:0.63137
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:3, Reg_bss_m0.01_h0.01, Best Epoch:50, Best Acc:0.74665
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:4, Reg_bss_m0.01_h0.01, Best Epoch:13, Best Acc:0.74996
+Dataset:bace, Split:scaffold, Fewshot_True_500, All seed, Reg_bss_m0.01_h0.01, Best Acc:0.72304, std: 0.05592
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:0, Reg_bss_m0.001_h0.001, Best Epoch:6, Best Acc:0.72666
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:1, Reg_bss_m0.001_h0.001, Best Epoch:6, Best Acc:0.72666
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:2, Reg_bss_m0.001_h0.001, Best Epoch:6, Best Acc:0.72648
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:3, Reg_bss_m0.001_h0.001, Best Epoch:6, Best Acc:0.72648
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:4, Reg_bss_m0.001_h0.001, Best Epoch:6, Best Acc:0.72648
+Dataset:bace, Split:scaffold, Fewshot_True_50, All seed, Reg_bss_m0.001_h0.001, Best Acc:0.72655, std: 0.00009
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:0, Reg_bss_m0.001_h0.001, Best Epoch:8, Best Acc:0.77726
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:1, Reg_bss_m0.001_h0.001, Best Epoch:8, Best Acc:0.77726
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:2, Reg_bss_m0.001_h0.001, Best Epoch:8, Best Acc:0.77726
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:3, Reg_bss_m0.001_h0.001, Best Epoch:8, Best Acc:0.77743
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:4, Reg_bss_m0.001_h0.001, Best Epoch:49, Best Acc:0.75100
+Dataset:bace, Split:scaffold, Fewshot_True_100, All seed, Reg_bss_m0.001_h0.001, Best Acc:0.77204, std: 0.01052
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:0, Reg_bss_m0.001_h0.001, Best Epoch:82, Best Acc:0.73552
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:1, Reg_bss_m0.001_h0.001, Best Epoch:22, Best Acc:0.75239
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:2, Reg_bss_m0.001_h0.001, Best Epoch:15, Best Acc:0.66788
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:3, Reg_bss_m0.001_h0.001, Best Epoch:68, Best Acc:0.70405
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:4, Reg_bss_m0.001_h0.001, Best Epoch:72, Best Acc:0.68214
+Dataset:bace, Split:scaffold, Fewshot_True_500, All seed, Reg_bss_m0.001_h0.001, Best Acc:0.70840, std: 0.03169
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:0, Reg_bss_m0.0001_h0.0001, Best Epoch:6, Best Acc:0.73500
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:1, Reg_bss_m0.0001_h0.0001, Best Epoch:6, Best Acc:0.73500
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:2, Reg_bss_m0.0001_h0.0001, Best Epoch:6, Best Acc:0.73500
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:3, Reg_bss_m0.0001_h0.0001, Best Epoch:6, Best Acc:0.73500
+Dataset:bace, Split:scaffold, Fewshot_True_50, Seed:4, Reg_bss_m0.0001_h0.0001, Best Epoch:6, Best Acc:0.73500
+Dataset:bace, Split:scaffold, Fewshot_True_50, All seed, Reg_bss_m0.0001_h0.0001, Best Acc:0.73500, std: 0.00000
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:0, Reg_bss_m0.0001_h0.0001, Best Epoch:8, Best Acc:0.77813
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:1, Reg_bss_m0.0001_h0.0001, Best Epoch:8, Best Acc:0.77813
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:2, Reg_bss_m0.0001_h0.0001, Best Epoch:61, Best Acc:0.63415
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:3, Reg_bss_m0.0001_h0.0001, Best Epoch:8, Best Acc:0.77795
+Dataset:bace, Split:scaffold, Fewshot_True_100, Seed:4, Reg_bss_m0.0001_h0.0001, Best Epoch:8, Best Acc:0.77813
+Dataset:bace, Split:scaffold, Fewshot_True_100, All seed, Reg_bss_m0.0001_h0.0001, Best Acc:0.74930, std: 0.05757
+Dataset:bace, Split:random, Fewshot_True_500, Seed:0, Reg_bss_m0.1_h0.1, Best Epoch:99, Best Acc:0.81145
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:0, Reg_bss_m0.0001_h0.0001, Best Epoch:74, Best Acc:0.72822
+Dataset:bace, Split:random, Fewshot_True_500, Seed:1, Reg_bss_m0.1_h0.1, Best Epoch:70, Best Acc:0.81740
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:1, Reg_bss_m0.0001_h0.0001, Best Epoch:78, Best Acc:0.73465
+Dataset:bace, Split:random, Fewshot_True_500, Seed:2, Reg_bss_m0.1_h0.1, Best Epoch:97, Best Acc:0.83106
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:2, Reg_bss_m0.0001_h0.0001, Best Epoch:12, Best Acc:0.77100
+Dataset:bace, Split:random, Fewshot_True_500, Seed:3, Reg_bss_m0.1_h0.1, Best Epoch:86, Best Acc:0.82668
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:3, Reg_bss_m0.0001_h0.0001, Best Epoch:98, Best Acc:0.73778
+Dataset:bace, Split:random, Fewshot_True_500, Seed:4, Reg_bss_m0.1_h0.1, Best Epoch:95, Best Acc:0.83036
+Dataset:bace, Split:random, Fewshot_True_500, All seed, Reg_bss_m0.1_h0.1, Best Acc:0.82339, std: 0.00770
+Dataset:bace, Split:random, Fewshot_True_50, Seed:0, Reg_bss_m0.01_h0.01, Best Epoch:10, Best Acc:0.78326
+Dataset:bace, Split:scaffold, Fewshot_True_500, Seed:4, Reg_bss_m0.0001_h0.0001, Best Epoch:37, Best Acc:0.78178
+Dataset:bace, Split:scaffold, Fewshot_True_500, All seed, Reg_bss_m0.0001_h0.0001, Best Acc:0.75069, std: 0.02148
+Dataset:bace, Split:random, Fewshot_True_50, Seed:1, Reg_bss_m0.01_h0.01, Best Epoch:10, Best Acc:0.78326
+Dataset:bace, Split:random, Fewshot_True_50, Seed:2, Reg_bss_m0.01_h0.01, Best Epoch:10, Best Acc:0.78326
+Dataset:bace, Split:random, Fewshot_True_50, Seed:3, Reg_bss_m0.01_h0.01, Best Epoch:10, Best Acc:0.78326
+Dataset:bace, Split:random, Fewshot_True_50, Seed:4, Reg_bss_m0.01_h0.01, Best Epoch:10, Best Acc:0.78326
+Dataset:bace, Split:random, Fewshot_True_50, All seed, Reg_bss_m0.01_h0.01, Best Acc:0.78326, std: 0.00000
+Dataset:bace, Split:random, Fewshot_True_100, Seed:0, Reg_bss_m0.01_h0.01, Best Epoch:50, Best Acc:0.85242
+Dataset:bace, Split:random, Fewshot_True_100, Seed:1, Reg_bss_m0.01_h0.01, Best Epoch:37, Best Acc:0.81075
+Dataset:bace, Split:random, Fewshot_True_100, Seed:2, Reg_bss_m0.01_h0.01, Best Epoch:42, Best Acc:0.78396
+Dataset:bace, Split:random, Fewshot_True_100, Seed:3, Reg_bss_m0.01_h0.01, Best Epoch:36, Best Acc:0.81232
+Dataset:bace, Split:random, Fewshot_True_100, Seed:4, Reg_bss_m0.01_h0.01, Best Epoch:86, Best Acc:0.80865
+Dataset:bace, Split:random, Fewshot_True_100, All seed, Reg_bss_m0.01_h0.01, Best Acc:0.81362, std: 0.02200
+Dataset:bace, Split:random, Fewshot_True_500, Seed:0, Reg_bss_m0.01_h0.01, Best Epoch:73, Best Acc:0.83596
+Dataset:bace, Split:random, Fewshot_True_500, Seed:1, Reg_bss_m0.01_h0.01, Best Epoch:49, Best Acc:0.78782
+Dataset:bace, Split:random, Fewshot_True_500, Seed:2, Reg_bss_m0.01_h0.01, Best Epoch:92, Best Acc:0.82195
+Dataset:bace, Split:random, Fewshot_True_500, Seed:3, Reg_bss_m0.01_h0.01, Best Epoch:70, Best Acc:0.79604
+Dataset:bace, Split:random, Fewshot_True_500, Seed:4, Reg_bss_m0.01_h0.01, Best Epoch:91, Best Acc:0.78624
+Dataset:bace, Split:random, Fewshot_True_500, All seed, Reg_bss_m0.01_h0.01, Best Acc:0.80560, std: 0.01986
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, Reg_bss_m0.01_h0.01, Best Epoch:87, Best Acc:0.87623
+Dataset:bace, Split:random, Fewshot_True_50, Seed:0, Reg_bss_m0.001_h0.001, Best Epoch:4, Best Acc:0.80987
+Dataset:bace, Split:random, Fewshot_True_50, Seed:1, Reg_bss_m0.001_h0.001, Best Epoch:4, Best Acc:0.80987
+Dataset:bace, Split:random, Fewshot_True_50, Seed:2, Reg_bss_m0.001_h0.001, Best Epoch:4, Best Acc:0.80987
+Dataset:bace, Split:random, Fewshot_True_50, Seed:3, Reg_bss_m0.001_h0.001, Best Epoch:4, Best Acc:0.80987
+Dataset:bace, Split:random, Fewshot_True_50, Seed:4, Reg_bss_m0.001_h0.001, Best Epoch:4, Best Acc:0.80987
+Dataset:bace, Split:random, Fewshot_True_50, All seed, Reg_bss_m0.001_h0.001, Best Acc:0.80987, std: 0.00000
+Dataset:bace, Split:random, Fewshot_True_100, Seed:0, Reg_bss_m0.001_h0.001, Best Epoch:93, Best Acc:0.83894
+Dataset:bace, Split:random, Fewshot_True_100, Seed:1, Reg_bss_m0.001_h0.001, Best Epoch:86, Best Acc:0.82353
+Dataset:bace, Split:random, Fewshot_True_100, Seed:2, Reg_bss_m0.001_h0.001, Best Epoch:51, Best Acc:0.83298
+Dataset:bace, Split:random, Fewshot_True_100, Seed:3, Reg_bss_m0.001_h0.001, Best Epoch:28, Best Acc:0.81583
+Dataset:bace, Split:random, Fewshot_True_100, Seed:4, Reg_bss_m0.001_h0.001, Best Epoch:31, Best Acc:0.82108
+Dataset:bace, Split:random, Fewshot_True_100, All seed, Reg_bss_m0.001_h0.001, Best Acc:0.82647, std: 0.00835
+Dataset:bace, Split:random, Fewshot_True_500, Seed:0, Reg_bss_m0.001_h0.001, Best Epoch:96, Best Acc:0.80760
+Dataset:bace, Split:random, Fewshot_True_500, Seed:1, Reg_bss_m0.001_h0.001, Best Epoch:98, Best Acc:0.80305
+Dataset:bace, Split:random, Fewshot_True_500, Seed:2, Reg_bss_m0.001_h0.001, Best Epoch:84, Best Acc:0.80095
+Dataset:bace, Split:random, Fewshot_True_500, Seed:3, Reg_bss_m0.001_h0.001, Best Epoch:81, Best Acc:0.80375
+Dataset:bace, Split:random, Fewshot_True_500, Seed:4, Reg_bss_m0.001_h0.001, Best Epoch:89, Best Acc:0.79954
+Dataset:bace, Split:random, Fewshot_True_500, All seed, Reg_bss_m0.001_h0.001, Best Acc:0.80298, std: 0.00275
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, Reg_bss_m0.001_h0.001, Best Epoch:98, Best Acc:0.86607
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, Reg_bss_m1.0_h1.0, Best Epoch:35, Best Acc:0.80217
+Dataset:bace, Split:random, Fewshot_False_50, All seed, Reg_bss_m1.0_h1.0, Best Acc:0.80217, std: 0.00000
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, Tune layers:linear_layer, Best Epoch:94, Best Acc:0.88603
+Dataset:bace, Split:random, Fewshot_False_50, All seed, Tune layers:linear_layer, Best Acc:0.88603, std: 0.00000
+Dataset:bace, Split:random, Fewshot_True_50, Seed:0, Tune layers:linear_layer, Best Epoch:77, Best Acc:0.81478
+Dataset:bace, Split:random, Fewshot_True_50, All seed, Tune layers:linear_layer, Best Acc:0.81478, std: 0.00000
+Dataset:bace, Split:random, Fewshot_True_100, Seed:0, Tune layers:linear_layer, Best Epoch:77, Best Acc:0.81880
+Dataset:bace, Split:random, Fewshot_True_100, All seed, Tune layers:linear_layer, Best Acc:0.81880, std: 0.00000
+Dataset:bace, Split:random, Fewshot_True_500, Seed:0, Tune layers:linear_layer, Best Epoch:99, Best Acc:0.82983
+Dataset:bace, Split:random, Fewshot_True_500, All seed, Tune layers:linear_layer, Best Acc:0.82983, std: 0.00000
+Dataset:bace, Split:size, Fewshot_False_50, Seed:0, Reg_bss_m0.01_h0.01, Best Epoch:91, Best Acc:0.63961
+Dataset:bace, Split:size, Fewshot_False_50, All seed, Reg_bss_m0.01_h0.01, Best Acc:0.63961, std: 0.00000
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, Reg_bss_m0.001_h0.001, Best Epoch:69, Best Acc:0.87272
+Dataset:bace, Split:random, Fewshot_False_50, All seed, Reg_bss_m0.001_h0.001, Best Acc:0.87272, std: 0.00000
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:0, Reg_bss_m0.001_h0.001, Best Epoch:87, Best Acc:0.80612
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:1, Reg_bss_m0.001_h0.001, Best Epoch:15, Best Acc:0.77847
+Dataset:bace, Split:scaffold, Fewshot_False_50, All seed, Reg_bss_m0.001_h0.001, Best Acc:0.79230, std: 0.01382
+Dataset:bace, Split:size, Fewshot_False_50, Seed:0, Reg_bss_m0.001_h0.001, Best Epoch:75, Best Acc:0.67971
+Dataset:bace, Split:size, Fewshot_False_50, Seed:1, Reg_bss_m0.001_h0.001, Best Epoch:93, Best Acc:0.62098
+Dataset:bace, Split:size, Fewshot_False_50, All seed, Reg_bss_m0.001_h0.001, Best Acc:0.65034, std: 0.02936
+Dataset:bace, Split:random, Fewshot_False_50, Seed:0, Reg_bss_m0.0001_h0.0001, Best Epoch:80, Best Acc:0.89583
+Dataset:bace, Split:random, Fewshot_False_50, Seed:1, Reg_bss_m0.0001_h0.0001, Best Epoch:71, Best Acc:0.85557
+Dataset:bace, Split:random, Fewshot_False_50, All seed, Reg_bss_m0.0001_h0.0001, Best Acc:0.87570, std: 0.02013
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:0, Reg_bss_m0.0001_h0.0001, Best Epoch:96, Best Acc:0.81464
+Dataset:bace, Split:scaffold, Fewshot_False_50, Seed:1, Reg_bss_m0.0001_h0.0001, Best Epoch:56, Best Acc:0.68319
+Dataset:bace, Split:scaffold, Fewshot_False_50, All seed, Reg_bss_m0.0001_h0.0001, Best Acc:0.74891, std: 0.06573
+Dataset:bace, Split:size, Fewshot_False_50, Seed:0, Reg_bss_m0.0001_h0.0001, Best Epoch:84, Best Acc:0.65363
+Dataset:bace, Split:size, Fewshot_False_50, Seed:1, Reg_bss_m0.0001_h0.0001, Best Epoch:68, Best Acc:0.69529
+Dataset:bace, Split:size, Fewshot_False_50, All seed, Reg_bss_m0.0001_h0.0001, Best Acc:0.67446, std: 0.02083

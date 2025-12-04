@@ -1,0 +1,337 @@
+import torch
+from torchvision.models import resnet18
+
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
+import argparse
+import math
+
+from loader import MoleculeDataset
+from torch_geometric.loader import DataLoader
+
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import torch.optim as optim
+
+from tqdm import tqdm
+import numpy as np
+import itertools
+from mlp import MLP
+
+# from model import GNN, GNN_graphpred
+from sklearn.metrics import roc_auc_score, mean_squared_error
+from torch_geometric.nn import global_mean_pool
+
+from splitters import scaffold_split, random_split, random_scaffold_split, size_split
+import pandas as pd
+import os
+import shutil
+import graphium
+from tensorboardX import SummaryWriter
+criterion = nn.BCEWithLogitsLoss(reduction = "none")
+criterion_reg = nn.MSELoss()
+
+def train(args, epoch, pt_model, ft_model, output_layer, device, loader, optimizer, alpha):
+    pt_model.eval()
+    ft_model.eval()
+    epoch_iter = tqdm(loader, desc="Iteration")
+    for step, batch in enumerate(epoch_iter):
+        batch = batch.to(device)
+        batch_clone = batch.clone().to(device)
+        pt_h = global_mean_pool(pt_model(batch_clone).feat, batch_clone.batch)
+        ft_h = global_mean_pool(ft_model(batch).feat, batch.batch)
+        h = ft_h * alpha + pt_h * (1-alpha)
+        pred = output_layer(h)
+
+        y = batch.y.view(pred.shape).to(torch.float64)
+
+        #Whether y is non-null or not.
+        #Loss matrix
+        if args.regression:
+            loss_mat = criterion_reg(pred.double(), y)
+            loss_mat = torch.sqrt(loss_mat)
+            is_valid = torch.ones_like(y).bool()
+        else:
+            loss_mat = criterion(pred.double(), (y+1)/2)
+            is_valid = y**2 > 0
+        #loss matrix after removing null target
+        loss_mat = torch.where(is_valid, loss_mat, torch.zeros(loss_mat.shape).to(loss_mat.device).to(loss_mat.dtype))  
+        optimizer.zero_grad()
+        loss = torch.sum(loss_mat)/torch.sum(is_valid)
+        loss.backward()
+        optimizer.step()
+        epoch_iter.set_description(f"Epoch: {epoch} tloss: {loss:.4f}")
+
+
+def eval(args, pt_model, ft_model, output_layer, device, loader, alpha):
+    pt_model.eval()
+    ft_model.eval()
+    y_true = []
+    y_scores = []
+
+    for step, batch in enumerate(tqdm(loader, desc="Iteration")):
+        batch = batch.to(device)
+        batch_clone = batch.clone().to(device)
+
+        with torch.no_grad():
+            pt_h = global_mean_pool(pt_model(batch_clone).feat, batch_clone.batch)
+            ft_h = global_mean_pool(ft_model(batch).feat, batch.batch)
+            h = ft_h * alpha + pt_h * (1-alpha)
+            pred = output_layer(h)
+
+        y_true.append(batch.y.view(pred.shape))
+        y_scores.append(pred)
+
+    y_true = torch.cat(y_true, dim = 0).cpu().numpy()
+    y_scores = torch.cat(y_scores, dim = 0).cpu().numpy()
+
+    roc_list = []
+    if args.regression:
+        roc_list.append(math.sqrt(mean_squared_error(y_true, y_scores)))
+    else:
+        for i in range(y_true.shape[1]):
+            #AUC is only defined when there is at least one positive data.
+            if np.sum(y_true[:,i] == 1) > 0 and np.sum(y_true[:,i] == -1) > 0:
+                is_valid = y_true[:,i]**2 > 0
+                roc_list.append(roc_auc_score((y_true[is_valid,i] + 1)/2, y_scores[is_valid,i]))
+
+    if len(roc_list) < y_true.shape[1]:
+        print("Some target is missing!")
+        print("Missing ratio: %f" %(1 - float(len(roc_list))/y_true.shape[1]))
+
+    return sum(roc_list)/len(roc_list) #y_true.shape[1]
+
+
+def main():
+    torch.set_num_threads(10)
+    # Training settings
+    parser = argparse.ArgumentParser(description='PyTorch implementation of pre-training of graph neural networks')
+    parser.add_argument('--device', type=int, default=5,
+                        help='which gpu to use if any (default: 0)')
+    parser.add_argument('--batch_size', type=int, default=32,
+                        help='input batch size for training (default: 32)')
+    parser.add_argument('--epochs', type=int, default=200,
+                        help='number of epochs to train (default: 100)')
+    parser.add_argument('--lr', type=float, default=0.001,
+                        help='learning rate (default: 0.001)')
+    parser.add_argument('--lr_scale', type=float, default=1,
+                        help='relative learning rate for the feature extraction layer (default: 1)')
+    parser.add_argument('--decay', type=float, default=0,
+                        help='weight decay (default: 0)')
+    parser.add_argument('--num_layer', type=int, default=5,
+                        help='number of GNN message passing layers (default: 5).')
+    parser.add_argument('--emb_dim', type=int, default=300,
+                        help='embedding dimensions (default: 300)')
+    parser.add_argument('--dropout_ratio', type=float, default=0.5,
+                        help='dropout ratio (default: 0.5)')
+    parser.add_argument('--graph_pooling', type=str, default="mean",
+                        help='graph level pooling (sum, mean, max, set2set, attention)')
+    parser.add_argument('--JK', type=str, default="last",
+                        help='how the node features across layers are combined. last, sum, max or concat')
+    parser.add_argument('--gnn_type', type=str, default="gin")
+    parser.add_argument('--dataset', type=str, default = 'bbbp', help='root directory of dataset. For now, only classification.')
+    parser.add_argument('--input_model_file', type=str, default = 'Mole-BERT', help='filename to read the model (if there is any)')
+    parser.add_argument('--filename', type=str, default = 'debug', help='output filename')
+    parser.add_argument('--seed', type=int, default=42, help = "Seed for splitting the dataset.")
+    parser.add_argument('--runseed', type=int, default=0, help = "Seed for minibatch selection, random initialization.")
+    parser.add_argument('--split', type = str, default="scaffold", help = "random or scaffold or random_scaffold")
+    parser.add_argument('--eval_train', type=int, default = 1, help='evaluating training or not')
+    parser.add_argument('--num_workers', type=int, default = 4, help='number of workers for dataset loading')
+    parser.add_argument('--regression', type=bool, default = False, help='whether regression task')
+    parser.add_argument('--fewshot', type=bool, default = False, help='whether few shot')
+    parser.add_argument('--fewshot_num', type=int, default = 50, help='few shot number for the labeled data')
+    parser.add_argument('--alpha', type=float, default = 0.5, help='alpha to control representation ensemble')
+
+
+    args = parser.parse_args()
+    os.environ["CUDA_VISIBLE_DEVICES"] = str(args.device)
+    score_list = []
+    allseed = [0, 1, 2, 3, 4]
+    for seed in allseed:
+        args.runseed = seed
+        torch.manual_seed(args.runseed)
+        np.random.seed(args.runseed)
+        # device = torch.device("cuda:" + str(args.device)) if torch.cuda.is_available() else torch.device("cpu")
+        device = torch.device("cuda:" + str(0)) if torch.cuda.is_available() else torch.device("cpu")
+        if torch.cuda.is_available():
+            torch.cuda.manual_seed_all(args.runseed)
+
+        #Bunch of classification tasks
+        if args.dataset == "tox21":
+            num_tasks = 12
+        elif args.dataset == "hiv":
+            num_tasks = 1
+        elif args.dataset == "pcba":
+            num_tasks = 128
+        elif args.dataset == "muv":
+            num_tasks = 17
+        elif args.dataset == "bace":
+            num_tasks = 1
+        elif args.dataset == "bbbp":
+            num_tasks = 1
+        elif args.dataset == "toxcast":
+            num_tasks = 617
+        elif args.dataset == "sider":
+            num_tasks = 27
+        elif args.dataset == "clintox":
+            num_tasks = 2
+        elif args.dataset in ['esol', 'lipo', 'freesolv', 'malaria', 'cep', 'mpbp']:
+            num_tasks = 1
+            args.regression = True
+        else:
+            raise ValueError("Invalid dataset name.")
+        
+        if args.dataset == 'mpbp':
+            global criterion_reg 
+            criterion_reg = nn.L1Loss()
+
+        #set up dataset
+        dataset = MoleculeDataset("./dataset/" + args.dataset, dataset=args.dataset)
+        print(dataset)
+        
+        if args.split == "scaffold":
+            smiles_list = pd.read_csv('./dataset/' + args.dataset + '/processed/smiles.csv', header=None)[0].tolist()
+            train_dataset, valid_dataset, test_dataset = scaffold_split(dataset, smiles_list, args.fewshot, args.fewshot_num, null_value=0, frac_train=0.8,frac_valid=0.1, frac_test=0.1, seed = args.seed)
+            print("scaffold")
+        elif args.split == "size":
+            smiles_list = pd.read_csv('./dataset/' + args.dataset + '/processed/smiles.csv', header=None)[0].tolist()
+            train_dataset, valid_dataset, test_dataset = size_split(dataset, args.fewshot, args.fewshot_num, null_value=0, frac_train=0.8,frac_valid=0.1, frac_test=0.1, seed = args.seed)
+        elif args.split == "random":
+            train_dataset, valid_dataset, test_dataset = random_split(dataset, args.fewshot, args.fewshot_num, null_value=0, frac_train=0.8,frac_valid=0.1, frac_test=0.1, seed = args.seed)
+            print("random")
+        elif args.split == "random_scaffold":
+            smiles_list = pd.read_csv('./dataset/' + args.dataset + '/processed/smiles.csv', header=None)[0].tolist()
+            train_dataset, valid_dataset, test_dataset = random_scaffold_split(dataset, smiles_list, null_value=0, frac_train=0.8,frac_valid=0.1, frac_test=0.1, seed = args.seed)
+            print("random scaffold")
+        else:
+            raise ValueError("Invalid split option.")
+
+        print('++++++++++', train_dataset)
+        train_loader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True, num_workers = args.num_workers)
+        val_loader = DataLoader(valid_dataset, batch_size=args.batch_size, shuffle=False, num_workers = args.num_workers)
+        test_loader = DataLoader(test_dataset, batch_size=args.batch_size, shuffle=False, num_workers = args.num_workers)
+
+        print(train_dataset[0])
+
+        # #set up model
+        # pt_model = graphium.trainer.PredictorModule.load_pretrained_model('models_checkpoints/neurips2023-small-gin/2024-07-27_15-42-01_20240727_154201/neurips2023_small_data_gin_20240727_154201.ckpt').model
+        # ft_model = graphium.trainer.PredictorModule.load_pretrained_model('models_checkpoints/neurips2023-small-gin/2024-07-27_15-42-01_20240727_154201/neurips2023_small_data_gin_20240727_154201.ckpt').model
+        # pt_model.task_heads = None
+        # ft_model.task_heads = None
+        # ft_state_dict = torch.load('sup_toymix_results/{}/Fewshot_{}_all_{}_Fewshot_{}_{}_seed{}.pth'.format(args.dataset, args.dataset, args.split, args.fewshot, args.fewshot_num, args.runseed))
+        # ft_cls = torch.load('sup_toymix_results/{}/Fewshot_{}_all_{}_Fewshot_{}_{}_MLP_seed{}.pth'.format(args.dataset, args.dataset, args.split, args.fewshot, args.fewshot_num, args.runseed))
+        # output_layer = MLP(in_channels=args.emb_dim, hidden_channels=args.emb_dim, 
+        #                     out_channels=num_tasks, num_layers=1, dropout=0).to(device)
+
+        #set up model
+        pt_model = graphium.trainer.PredictorModule.load_pretrained_model('models_checkpoints/neurips2023-small-gin/2024-07-27_15-42-01_20240727_154201/neurips2023_small_data_gin_20240727_154201.ckpt').model
+        ft_model = graphium.trainer.PredictorModule.load_pretrained_model('models_checkpoints/neurips2023-small-gin/2024-07-27_15-42-01_20240727_154201/neurips2023_small_data_gin_20240727_154201.ckpt').model
+        pt_model.task_heads = None
+        ft_model.task_heads = None
+        pt_state_dict = pt_model.state_dict()
+        ft_state_dict = torch.load('sup_toymix_results/{}/Fewshot_{}_all_{}_Fewshot_{}_{}_seed{}.pth'.format(args.dataset, args.dataset, args.split, args.fewshot, args.fewshot_num, args.runseed))
+        ft_cls = torch.load('sup_toymix_results/{}/Fewshot_{}_all_{}_Fewshot_{}_{}_MLP_seed{}.pth'.format(args.dataset, args.dataset, args.split, args.fewshot, args.fewshot_num, args.runseed))
+        output_layer = MLP(in_channels=args.emb_dim, hidden_channels=args.emb_dim, 
+                            out_channels=num_tasks, num_layers=1, dropout=0).to(device)
+        # if not args.input_model_file == "None":
+        #     print('Not from scratch')
+        #     model.from_pretrained('model_gin/{}.pth'.format(args.input_model_file))
+
+        alpha = args.alpha
+        theta = {
+            key: (1-alpha) * pt_state_dict[key] + alpha * ft_state_dict[key]
+            for key in pt_state_dict.keys()
+        }
+
+        pt_model.to(device)
+        ft_model.to(device)
+
+        ft_model.load_state_dict(ft_state_dict)
+        output_layer.load_state_dict(ft_cls)
+
+        alpha = nn.Parameter(torch.tensor(args.alpha, requires_grad=True))
+
+        optimizer = optim.Adam([alpha], lr=args.lr, weight_decay=args.decay)
+
+        train_acc_list = []
+        val_acc_list = []
+        test_acc_list = []
+        alpha_list = []
+
+        args.filename = "DFTMAP" + "_" + args.dataset + "_" + args.split + "_" + "Fewshot_" + str(args.fewshot) + "_" + str(args.fewshot_num) + "alpha_" + str(args.alpha)
+
+        if not args.filename == "":
+            fname = 'runs/finetune_fewshot_cls_runseed' + str(args.runseed) + '/' + args.filename
+            #delete the directory if there exists one
+            # if os.path.exists(fname):
+            #     shutil.rmtree(fname)
+            #     print("removed the existing file.")
+            writer = SummaryWriter(fname)
+        
+        best_func = min if args.regression else max
+        best_val = 100 if args.regression else 0
+
+        exp_path = os.getcwd() + '/sup_toymix_results/{}/'.format(args.dataset)
+        if not os.path.exists(exp_path):
+            os.makedirs(exp_path)
+
+        for epoch in range(1, args.epochs+1):
+            print("====epoch " + str(epoch))
+            
+            train(args, epoch, pt_model, ft_model, output_layer, device, val_loader, optimizer, alpha)
+            print(alpha)
+
+            print("====Evaluation")
+            if args.eval_train:
+                train_acc = eval(args, pt_model, ft_model, output_layer, device, train_loader, alpha)
+            else:
+                print("omit the training accuracy computation")
+                train_acc = 0
+            val_acc = eval(args, pt_model, ft_model, output_layer, device, val_loader, alpha)
+            test_acc = eval(args, pt_model, ft_model, output_layer, device, test_loader, alpha)
+
+            update = (best_val > val_acc) if args.regression else (best_val < val_acc)
+            if update:
+                print("update")
+                best_val = val_acc
+                # torch.save(model.state_dict(), exp_path + args.filename + '_seed{}.pth'.format(args.runseed))
+                # torch.save(output_layer.state_dict(), exp_path + args.filename + '_MLP_seed{}.pth'.format(args.runseed))
+
+            print("train: %f val: %f test: %f" %(train_acc, val_acc, test_acc))
+            val_acc_list.append(val_acc)
+            test_acc_list.append(test_acc)
+            train_acc_list.append(train_acc)
+            alpha_list.append(alpha.item())
+
+            if not args.filename == "":
+                writer.add_scalar('data/train auc', train_acc, epoch)
+                writer.add_scalar('data/val auc', val_acc, epoch)
+                writer.add_scalar('data/test auc', test_acc, epoch)
+
+        print('Best epoch:', val_acc_list.index(best_func(val_acc_list)))
+        print('Best auc: ', test_acc_list[val_acc_list.index(best_func(val_acc_list))])
+
+        df = pd.DataFrame({'train':train_acc_list,'valid':val_acc_list,'test':test_acc_list, 'alpha':alpha_list}, )
+        df.to_csv(exp_path + args.filename + '_seed{}.csv'.format(args.runseed))
+
+        score_list.append(test_acc_list[val_acc_list.index(best_func(val_acc_list))])
+        logs = 'Dataset:{}, Split:{}, Fewshot_{}_{}, Seed:{}, DFTMAP:{}, Best Epoch:{}, Best Acc:{:.5f}'.format(args.dataset, args.split, args.fewshot, args.fewshot_num, args.runseed, args.alpha, val_acc_list.index(best_func(val_acc_list)), test_acc_list[val_acc_list.index(best_func(val_acc_list))])
+        with open(exp_path + '{}_log.csv'.format(args.dataset),'a+') as f:
+            f.write('\n')
+            f.write(logs)
+        # torch.save(saved_model.state_dict(), exp_path + args.filename + '_seed{}.pth'.format(args.runseed))
+        # torch.save(saved_output_layer.state_dict(), exp_path + args.filename + '_MLP_seed{}.pth'.format(args.runseed))
+
+
+        if not args.filename == "":
+            writer.close()
+
+    logs = 'Dataset:{}, Split:{}, Fewshot_{}_{}, All seed, DFTMAP:{}, Best Acc:{:.5f}, std: {:.5f}'.format(args.dataset,args.split, args.fewshot, args.fewshot_num, args.alpha, np.mean(score_list), np.std(score_list))
+    with open(exp_path + '{}_log.csv'.format(args.dataset),'a+') as f:
+        f.write('\n')
+        f.write(logs)
+
+if __name__ == "__main__":
+    main()
