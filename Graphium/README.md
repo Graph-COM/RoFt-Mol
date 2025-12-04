@@ -1,14 +1,10 @@
 # Fine-tuning given Supervised Pre-trained Model from Graphium
 
-## Environment
-The required packages are outputted into requirements.txt.
-
-## Dataset
-I include one example regression dataset ```esol``` and one example classification dataset ```bbbp``` for you to you test on. The rest of the molecule_net datasets can be downloaded from [chem data](http://snap.stanford.edu/gnn-pretrain/data/chem_dataset.zip) (2.5GB), unzip it, and put it under `dataset/`. The two other regression ```malaria``` and ```cep``` datasets can be downloaded following the instruction [here](https://github.com/chao1224/GraphMVP/tree/main/datasets).
-
+## Pretrained models
+The graphium-large and graphium-toy checkpoints can be download [here](https://drive.google.com/drive/folders/1-7kQD0xnQ1QCCkoi1RWYdKF1eH_HqX9f?usp=sharing), and put them under the model_checkpoints folder. Make sure the pre-trained model path is correct in the later fine-tuning files when doing the fine-tuning. 
 
 ## Non Fewshot Fine-tuning (FT)
-Some general arguments are ```dataset``` that can be chosen from ```esol, bbbp``` \
+Some general arguments are ```dataset``` that can be chosen from the 12 datasets listed in the paper \
 ```split``` that can be chosen from ```random, scaffold, size```\
 The range of model specific hyperparameters are specified in the appendix.
 
