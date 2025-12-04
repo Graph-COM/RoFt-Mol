@@ -1,4 +1,4 @@
-<h1 align="center">RoFt-Mol: Benchmarking Robust Fine-Tuning with Molecular Graph Foundation Models (RoFT-MoL)</h1>
+<h1 align="center">RoFt-Mol: Benchmarking Robust Fine-Tuning with Molecular Graph Foundation Models</h1>
 
 This repository is the implementation for the paper [RoFt-Mol: Benchmarking Robust Fine-Tuning with Molecular Graph Foundation Models](https://arxiv.org/abs/2509.00614) by Shikun Liu, Deyu Zou, Nima Shoghi, Victor Fung, Kai Liu, Pan Li.
 
@@ -6,6 +6,9 @@ This repository is the implementation for the paper [RoFt-Mol: Benchmarking Robu
 
 We introduce **RoFt-Mol**, which benchmarks robust fine-tuning methods on molecular property prediction tasks given pre-trained molecular graph foundation models to better understand how to fine-tune the pre-trained models to the downstream tasks robustly under limited samples and potential distribution shifts. We classify eight fine-tuning methods into three mechanisms: weight-based, representation-based, and partial fine-tuning and benchmark these methods on downstream regression and classification tasks across supervised and self-supervised pre-trained models in diverse labeling settings. This extensive evaluation provides valuable insights and informs the design of a refined robust fine-tuning method, ROFT-MOL. This approach combines the strengths of
 simple post-hoc weight interpolation with more complex weight ensemble finetuning methods, delivering improved performance across both task types while maintaining the ease of use inherent in post-hoc weight interpolation. 
+
+<p align="center"><img src="./roftmol.png" width=85% height=85%></p>
+<p><em>Figure 1.</em> The overall framework of fine-tuning strategies evaluated in our benchmark, ROFT-MOL, and the proposed method, DWiSE-FT.</p>
 
 ## Pretrained Models
 
