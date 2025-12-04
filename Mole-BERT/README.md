@@ -1,12 +1,5 @@
 # Fine-tuning given Mole-BERT Pre-trained Model 
 
-## Environment
-The required packages are outputted into requirements.txt.
-
-## Dataset
-I include one example regression dataset ```esol``` and one example classification dataset ```bbbp``` for you to you test on. The rest of the molecule_net datasets can be downloaded from [chem data](http://snap.stanford.edu/gnn-pretrain/data/chem_dataset.zip) (2.5GB), unzip it, and put it under `dataset/`. The two other regression ```malaria``` and ```cep``` datasets can be downloaded following the instruction [here](https://github.com/chao1224/GraphMVP/tree/main/datasets).
-
-
 ## Non Fewshot Fine-tuning (FT)
 Some general arguments are ```dataset``` that can be chosen from ```esol, bbbp``` \
 ```split``` that can be chosen from ```random, scaffold, size```\
